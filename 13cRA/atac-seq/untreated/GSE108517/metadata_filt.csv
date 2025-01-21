@@ -1,0 +1,3 @@
+run,sample,cell_line,replicate,rep_name,assay,instrument,layout,platform,study
+SRR6418909,GSM2902662,hNCC,rep1,hNCC_rep1,ATAC-seq,Illumina HiSeq 2500,PAIRED,ILLUMINA,SRP127545
+SRR6418910,GSM2902663,hNCC,rep2,hNCC_rep2,ATAC-seq,Illumina HiSeq 2500,PAIRED,ILLUMINA,SRP127545
