@@ -1,0 +1,2 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR191362	/home/flanary/Dry_Lab/13cRA/rna-seq/untreated/GSE28875/02_fastq_qc/fastqc_output/SRR191362_fastqc.zip

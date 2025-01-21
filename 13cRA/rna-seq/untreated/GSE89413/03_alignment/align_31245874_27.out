@@ -1,0 +1,11 @@
+Aligning sample: SRR4787038
+Using STAR index: /data/project/sen-lab/genome/hg38/star_index
+FASTQ files: /data/scratch/flanary/rna-seq/untreated/GSE89413/fastq/.fastq, /data/scratch/flanary/rna-seq/untreated/GSE89413/fastq/.fastq.gz
+Jan 20 16:05:03 ..... started STAR run
+Jan 20 16:05:03 ..... loading genome
+Jan 20 16:05:28 ..... started mapping
+Jan 20 16:38:50 ..... finished mapping
+Jan 20 16:38:51 ..... started sorting BAM
+Jan 20 16:48:13 ..... finished successfully
+Aligned files for SRR4787038 are in: /data/scratch/flanary/rna-seq/untreated/GSE89413/bam/SRR4787038
+STAR alignment complete
