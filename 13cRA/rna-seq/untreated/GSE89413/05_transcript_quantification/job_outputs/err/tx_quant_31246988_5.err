@@ -1,0 +1,52 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o SRR4787016.rmdup.bam                           ||
+||                                                                            ||
+||             Output file : raw_counts.txt                                   ||
+||                 Summary : raw_counts.txt.summary                           ||
+||              Annotation : gencode.v22.annotation.gtf (GTF)                 ||
+||      Dir for temp files : /data/scratch/flanary/rna-seq/untreated/GSE8 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v22.annotation.gtf ...                        ||
+||    Features : 1172082                                                      ||
+||    Meta-features : 60483                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file SRR4787016.rmdup.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 36449735                                             ||
+||    Successfully assigned alignments : 17660084 (48.5%)                     ||
+||    Running time : 14.07 minutes                                            ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/data/scratch/flanary/r  ||
+|| na-seq/untreated/GSE89413/counts/SRR4787016/raw_counts.txt.summary"        ||
+||                                                                            ||
+\\============================================================================//
+
