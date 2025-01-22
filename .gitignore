@@ -15,3 +15,5 @@
 *_cache/
 /cache/
 
+# Large data files
+NB_ITH/NBAtlas/data/
