@@ -1,0 +1,47 @@
+[2025-01-23 16:06:13,648] multiqc                                            [DEBUG  ]  No MultiQC config found: /data/rc/apps/ngs-ccts/MultiQC/0.8/lib/python2.7/site-packages/multiqc_config.yaml
+[2025-01-23 16:06:13,648] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/flanary/.multiqc_config.yaml
+[2025-01-23 16:06:13,648] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2025-01-23 16:06:13,648] multiqc                                            [DEBUG  ]  No MultiQC config found: /data/rc/apps/ngs-ccts/MultiQC/0.8/lib/python2.7/site-packages/multiqc_config.yaml
+[2025-01-23 16:06:13,648] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/flanary/.multiqc_config.yaml
+[2025-01-23 16:06:13,648] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2025-01-23 16:06:13,648] multiqc                                            [DEBUG  ]  Command used: /share/apps/ngs-ccts/MultiQC/0.8/bin/multiqc -v /home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output -o /home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/multiqc_output
+[2025-01-23 16:06:13,648] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2025-01-23 16:06:13,648] multiqc                                            [INFO   ]  This is MultiQC v0.8
+[2025-01-23 16:06:13,648] multiqc                                            [DEBUG  ]  Command     : /share/apps/ngs-ccts/MultiQC/0.8/bin/multiqc -v /home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output -o /home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/multiqc_output
+[2025-01-23 16:06:13,649] multiqc                                            [DEBUG  ]  Working dir : /data/user/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc
+[2025-01-23 16:06:13,649] multiqc                                            [INFO   ]  Template    : default
+[2025-01-23 16:06:13,650] multiqc                                            [INFO   ]  Searching '/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output'
+[2025-01-23 16:06:13,650] multiqc                                            [DEBUG  ]  Analysing modules: gatk, quast, snpeff, qualimap, bcftools, featureCounts, methylQA, rseqc, picard, preseq, samblaster, samtools, bamtools, bismark, hicup, salmon, kallisto, star, tophat, bowtie2, bowtie1, cutadapt, trimmomatic, skewer, fastq_screen, fastqc
+[2025-01-23 16:06:13,650] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /scratch/local/tmp4YUbBP
+[2025-01-23 16:06:14,682] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:14,696] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:14,774] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:14,826] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:14,888] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:14,910] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:14,928] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:15,191] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:15,651] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:15,703] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:15,766] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:15,916] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,000] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,022] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,044] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,051] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,118] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,140] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,152] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,219] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,282] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,348] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,416] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,475] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:16,500] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-23 16:06:22,825] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 16 reports
+[2025-01-23 16:06:23,410] multiqc                                            [INFO   ]  Report      : ../../../../../../../../../../home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_report.html
+[2025-01-23 16:06:23,411] multiqc                                            [INFO   ]  Data        : ../../../../../../../../../../home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_data
+[2025-01-23 16:06:23,411] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/local/tmp4YUbBP/multiqc_data/multiqc_fastqc.txt' to '/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_data'
+[2025-01-23 16:06:23,412] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/local/tmp4YUbBP/multiqc_data/multiqc_general_stats.txt' to '/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_data'
+[2025-01-23 16:06:23,413] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/local/tmp4YUbBP/multiqc_data/multiqc_sources.txt' to '/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_data'
+[2025-01-23 16:06:24,074] multiqc                                            [INFO   ]  MultiQC complete

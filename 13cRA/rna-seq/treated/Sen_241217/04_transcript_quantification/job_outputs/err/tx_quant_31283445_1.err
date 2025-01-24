@@ -1,0 +1,52 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.8
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           IMR5_final.bam                                   ||
+||                                                                            ||
+||             Output file : raw_counts.txt                                   ||
+||                 Summary : raw_counts.txt.summary                           ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : gencode.v22.annotation.gtf (GTF)                 ||
+||      Dir for temp files : /data/scratch/flanary/rna-seq/treated/Sen_24 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v22.annotation.gtf ...                        ||
+||    Features : 1172082                                                      ||
+||    Meta-features : 60483                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file IMR5_final.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 34658403                                             ||
+||    Successfully assigned alignments : 17583006 (50.7%)                     ||
+||    Running time : 0.15 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/data/scratch/flanary/r  ||
+|| na-seq/treated/Sen_241217/counts/IMR5/raw_counts.txt.summary"              ||
+||                                                                            ||
+\\============================================================================//
+

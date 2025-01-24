@@ -1,0 +1,11 @@
+Processing sample SY5Y_rep1
+Using STAR index: /data/project/sen-lab/genome/hg38/star_index
+FASTQ files: /data/scratch/flanary/rna-seq/treated/Sen_241217/fastq/SY5Y_rep1_R1.fastq.gz, /data/scratch/flanary/rna-seq/treated/Sen_241217/fastq/SY5Y_rep1_R2.fastq.gz
+Jan 23 20:41:21 ..... started STAR run
+Jan 23 20:41:22 ..... loading genome
+Jan 23 20:42:28 ..... started mapping
+Jan 23 20:47:58 ..... finished mapping
+Jan 23 20:47:59 ..... started sorting BAM
+Jan 23 20:49:42 ..... finished successfully
+Aligned files for SY5Y_rep1 are in: /data/scratch/flanary/rna-seq/treated/Sen_241217/bam
+STAR alignment complete

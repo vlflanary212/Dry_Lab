@@ -1,0 +1,11 @@
+Processing sample SHEP_rep2
+Using STAR index: /data/project/sen-lab/genome/hg38/star_index
+FASTQ files: /data/scratch/flanary/rna-seq/treated/Sen_241217/fastq/SHEP_rep2_R1.fastq.gz, /data/scratch/flanary/rna-seq/treated/Sen_241217/fastq/SHEP_rep2_R2.fastq.gz
+Jan 23 20:41:21 ..... started STAR run
+Jan 23 20:41:21 ..... loading genome
+Jan 23 20:42:19 ..... started mapping
+Jan 23 20:45:04 ..... finished mapping
+Jan 23 20:45:05 ..... started sorting BAM
+Jan 23 20:46:19 ..... finished successfully
+Aligned files for SHEP_rep2 are in: /data/scratch/flanary/rna-seq/treated/Sen_241217/bam
+STAR alignment complete

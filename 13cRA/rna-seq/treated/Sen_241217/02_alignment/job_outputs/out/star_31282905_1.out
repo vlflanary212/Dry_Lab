@@ -1,0 +1,11 @@
+Processing sample IMR5_rep1
+Using STAR index: /data/project/sen-lab/genome/hg38/star_index
+FASTQ files: /data/scratch/flanary/rna-seq/treated/Sen_241217/fastq/IMR5_rep1_R1.fastq.gz, /data/scratch/flanary/rna-seq/treated/Sen_241217/fastq/IMR5_rep1_R2.fastq.gz
+Jan 23 20:41:21 ..... started STAR run
+Jan 23 20:41:21 ..... loading genome
+Jan 23 20:42:22 ..... started mapping
+Jan 23 20:51:33 ..... finished mapping
+Jan 23 20:51:34 ..... started sorting BAM
+Jan 23 20:53:16 ..... finished successfully
+Aligned files for IMR5_rep1 are in: /data/scratch/flanary/rna-seq/treated/Sen_241217/bam
+STAR alignment complete
