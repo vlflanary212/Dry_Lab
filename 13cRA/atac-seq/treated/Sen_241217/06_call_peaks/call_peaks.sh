@@ -23,7 +23,7 @@ wd="/data/scratch/flanary/atac-seq/treated/Sen_241217"
 bam_dir=$wd/"final_bam"
 bigwig_dir=$wd/"bw"
 peak_dir=$wd/"peaks"
-samples="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_241217/cell_lines.txt"
+samples="/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/cell_lines.txt"
 
 # Get sample name for this array task
 sample=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$samples")
