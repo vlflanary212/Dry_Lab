@@ -1,0 +1,211 @@
+null device 
+          1 
+null device 
+          1 
+[1] "Clustering at Louvain resolution 0.1"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6997296
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9917
+Number of communities: 27
+Elapsed time: 102 seconds
+[1] "Finished clustering at Louvain resolution 0.1"
+[1] "Clustering at Louvain resolution 0.2"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6997296
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9873
+Number of communities: 33
+Elapsed time: 104 seconds
+[1] "Finished clustering at Louvain resolution 0.2"
+[1] "Clustering at Louvain resolution 0.3"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6997296
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9832
+Number of communities: 38
+Elapsed time: 93 seconds
+[1] "Finished clustering at Louvain resolution 0.3"
+[1] "Clustering at Louvain resolution 0.4"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6997296
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9792
+Number of communities: 38
+Elapsed time: 99 seconds
+[1] "Finished clustering at Louvain resolution 0.4"
+[1] "Clustering at Louvain resolution 0.5"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6997296
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9754
+Number of communities: 43
+Elapsed time: 84 seconds
+[1] "Finished clustering at Louvain resolution 0.5"
+[1] "Clustering at Louvain resolution 0.6"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6997296
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9719
+Number of communities: 48
+Elapsed time: 89 seconds
+[1] "Finished clustering at Louvain resolution 0.6"
+[1] "Clustering at Louvain resolution 0.7"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6997296
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9688
+Number of communities: 56
+Elapsed time: 80 seconds
+[1] "Finished clustering at Louvain resolution 0.7"
+[1] "Clustering at Louvain resolution 0.8"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6997296
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9660
+Number of communities: 59
+Elapsed time: 83 seconds
+[1] "Finished clustering at Louvain resolution 0.8"
+[1] "Clustering at Louvain resolution 0.9"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6997296
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9634
+Number of communities: 58
+Elapsed time: 86 seconds
+[1] "Finished clustering at Louvain resolution 0.9"
+null device 
+          1 
+null device 
+          1 
+[1] "Clustering at Louvain resolution 0.1"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6415433
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9802
+Number of communities: 19
+Elapsed time: 82 seconds
+[1] "Finished clustering at Louvain resolution 0.1"
+[1] "Clustering at Louvain resolution 0.2"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6415433
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9720
+Number of communities: 24
+Elapsed time: 83 seconds
+[1] "Finished clustering at Louvain resolution 0.2"
+[1] "Clustering at Louvain resolution 0.3"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6415433
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9658
+Number of communities: 31
+Elapsed time: 89 seconds
+[1] "Finished clustering at Louvain resolution 0.3"
+[1] "Clustering at Louvain resolution 0.4"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6415433
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9601
+Number of communities: 33
+Elapsed time: 87 seconds
+[1] "Finished clustering at Louvain resolution 0.4"
+[1] "Clustering at Louvain resolution 0.5"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6415433
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9557
+Number of communities: 39
+Elapsed time: 94 seconds
+[1] "Finished clustering at Louvain resolution 0.5"
+[1] "Clustering at Louvain resolution 0.6"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6415433
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9516
+Number of communities: 44
+Elapsed time: 84 seconds
+[1] "Finished clustering at Louvain resolution 0.6"
+[1] "Clustering at Louvain resolution 0.7"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6415433
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9475
+Number of communities: 47
+Elapsed time: 86 seconds
+[1] "Finished clustering at Louvain resolution 0.7"
+[1] "Clustering at Louvain resolution 0.8"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6415433
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9440
+Number of communities: 49
+Elapsed time: 88 seconds
+[1] "Finished clustering at Louvain resolution 0.8"
+[1] "Clustering at Louvain resolution 0.9"
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 201706
+Number of edges: 6415433
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.9407
+Number of communities: 52
+Elapsed time: 86 seconds
+[1] "Finished clustering at Louvain resolution 0.9"
+null device 
+          1 
+null device 
+          1 
+done

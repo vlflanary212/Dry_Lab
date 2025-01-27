@@ -1,0 +1,270 @@
+Loading required package: SeuratObject
+Loading required package: sp
+‘SeuratObject’ was built under R 4.4.0 but the current version is
+4.4.1; it is recomended that you reinstall ‘SeuratObject’ as the ABI
+for R may have changed
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+Loading required package: Rcpp
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+here() starts at /home/flanary/Dry_Lab
+Warning: Assay RNA changing from Assay to Assay5
+Warning message:
+Input is a v3 assay and `split()` only works for v5 assays; converting
+• to a v5 assay 
+Normalizing layer: counts.Dong2020_single-cell_10X_v2_Fresh
+Normalizing layer: counts.Dong2020_single-cell_10X_v3_Fresh
+Normalizing layer: counts.Jansky2021_single-nucleus_10X_v2_Snap-frozen
+Normalizing layer: counts.Kildisiute2021_10X_single-cell_10X_v2_Fresh
+Normalizing layer: counts.Slyper2020_cell_single-cell_10X_v2_Fresh
+Normalizing layer: counts.Slyper2020_nucleus_single-nucleus_10X_v2_Snap-frozen
+Normalizing layer: counts.Verhoeven2022_single-cell_10X_v2_Viable-frozen
+Normalizing layer: counts.Verhoeven2022_single-cell_10X_v3_Viable-frozen
+Normalizing layer: counts.Costa2022_single-cell_10X_v3_Fresh
+Finding variable features for layer counts.Dong2020_single-cell_10X_v2_Fresh
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts.Dong2020_single-cell_10X_v3_Fresh
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts.Jansky2021_single-nucleus_10X_v2_Snap-frozen
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts.Kildisiute2021_10X_single-cell_10X_v2_Fresh
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts.Slyper2020_cell_single-cell_10X_v2_Fresh
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts.Slyper2020_nucleus_single-nucleus_10X_v2_Snap-frozen
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts.Verhoeven2022_single-cell_10X_v2_Viable-frozen
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts.Verhoeven2022_single-cell_10X_v3_Viable-frozen
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts.Costa2022_single-cell_10X_v3_Fresh
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+When using repel, set xnudge and ynudge to 0 for optimal results
+Warning messages:
+1: In scale_x_log10() : log-10 transformation introduced infinite values.
+2: ggrepel: 9 unlabeled data points (too many overlaps). Consider increasing max.overlaps 
+Centering and scaling data matrix
+PC_ 1 
+Positive:  RPL39, RPS10, GAPDH, RPS26, EEF1B2, MT-ND4, RPL7A, RPS21, HNRNPA1, NACA 
+	   RPS28, RPS13, RPL12, LDHB, HSPE1, YBX1, RPS15A, NME1, MT-ND1, RAN 
+	   RPL4, RPSA, RPL18, RPS7, JPT1, TPT1, MT-CO1, MT-CO2, H4C3, RPLP1 
+Negative:  RBFOX1, DPP6, CACNA2D3, RGS7, NXPH1, CNTNAP2, DGKB, DLC1, PTPRD, SYN3 
+	   SLC8A1, TENM3, ROBO1, BMPR1B, EXOC4, NEGR1, TMEM132C, LRRTM4, IQCJ-SCHIP1, SORBS2 
+	   TIMP3, FGF13, NCAM2, HS3ST5, EBF1, TMTC2, EPHA6, ROBO2, SLIT2, GRM8 
+PC_ 2 
+Positive:  CENPF, TOP2A, UBE2C, MKI67, BIRC5, PTTG1, GTSE1, MAD2L1, CDK1, PBK 
+	   TYMS, TPX2, CDKN3, CCNB1, ASPM, PIMREG, NUF2, SMC4, ENDOG, CCNB2 
+	   HMGB2, CKAP2L, AURKB, NDC80, DLGAP5, CKS2, CCNA2, UBE2T, PCLAF, CENPA 
+Negative:  S100A6, PRPH, RGS5, DBH, NTRK1, ANXA2, TH, SCG2, PMP22, KRT19 
+	   LINC02308, HSPB1, SHC1, SCG5, GNG3, CHRNA3, CLU, RAMP1, MAP1LC3A, NDUFA4L2 
+	   CD9, RBP1, PKIB, TAGLN2, GATA2, MEG3, PDLIM2, PPP1R1A, DUSP1, ALDOC 
+PC_ 3 
+Positive:  ANXA2, DBH, RGS5, SCG2, CNTNAP2, CD9, CADM1, TH, PRPH, NTRK1 
+	   SERPINE2, TLN2, TUBA1A, CLIC1, EBF1, HMX1, DLC1, SLCO3A1, PMP22, NCOA7 
+	   DDC, MAP7, SORBS2, CLU, TAGLN2, CD44, RAMP1, SFRP1, ALCAM, S100A6 
+Negative:  MYCN, RPL22L1, SERPINF1, RPS11, LY6H, SIX3, TWIST1, MYCNOS, H2AW, LY6E 
+	   SNHG25, VCAN, FOXC1, NEFL, NPW, DLX5, NR2F1, DUSP4, LINC01976, NR2F2 
+	   NME1, DDX1, EGR3, PDGFRA, VIP, CMBL, RPL39, GLRX, VGF, AC008568.1 
+PC_ 4 
+Positive:  SERPINF1, TWIST1, CD81, IFI16, DDX1, HGF, NBAS, MT-ND3, MYCNOS, NR2F1 
+	   VEGFD, FAM49A, PRRX2, MT-ATP6, MARCHF11, JUND, NPW, IFI44, IFIT1, TAF1D 
+	   LINC01976, MT-CYB, DLX5, NRXN1, MAP2K2, TKT, PCOLCE, SCG5, CCNB1IP1, EEF1A2 
+Negative:  RGS5, HSPB1, KRT19, HMGN2, PDLIM5, RGS2, DNAJB1, HMGB2, RPLP2, GNG3 
+	   HSPA1A, CRIP2, IGFBP7, FXYD7, HOXC8, TMSB4X, CDKN2C, TPPP3, HSPA1B, DBH 
+	   TUBA1B, BIRC5, INSIG1, TOP2A, SNHG32, TAGLN2, RPL37A, HSPA6, TROAP, PTTG1 
+PC_ 5 
+Positive:  RPL38, RPLP2, RPS16, TMSB4X, RPS29, RPS2, FTH1, NPY, TMSB15A, RPS15A 
+	   PDLIM5, RPL39, RPS8, RPL37A, NREP, FTL, RPLP1, RPS28, POU2F2, MARCHF11 
+	   PPP2R2B, IGFBP7, EEF2, CDH8, FGF13, SLC25A6, ELAVL2, RGS2, EBF1, RPS5 
+Negative:  DLK1, ERBB4, JUND, GNAS, LINC00276, RAMP1, MYCN, INSM1, GPR22, HSP90B1 
+	   EEF1A2, S100A10, CD81, HLA-DRB5, MEIS2, AL162581.1, FAM162B, PDIA3, HSPA5, CYBA 
+	   C2CD4B, DACH1, CITED2, PDIA6, NT5DC2, GULP1, GAL, HMX1, CD9, SFRP1 
+Computing nearest neighbor graph
+Computing SNN
+Warning messages:
+1: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+2: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+3: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+4: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+5: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+6: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+7: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+8: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+Warning: The following arguments are not used: reduction_name
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+00:24:16 UMAP embedding parameters a = 0.9922 b = 1.112
+00:24:16 Read 201706 rows and found 31 numeric columns
+00:24:16 Using Annoy for neighbor search, n_neighbors = 30
+00:24:16 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+00:24:42 Writing NN index file to temp file /tmp/RtmpIkIphj/file4399d2ceea08
+00:24:42 Searching Annoy index using 4 threads, search_k = 3000
+00:25:09 Annoy recall = 100%
+00:25:09 Commencing smooth kNN distance calibration using 4 threads with target n_neighbors = 30
+00:25:14 Initializing from normalized Laplacian + noise (using RSpectra)
+00:26:22 Commencing optimization for 200 epochs, with 9280752 positive edges
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+00:28:13 Optimization finished
+Transposing data matrix
+Using automatic lambda estimation
+Initializing state using k-means centroids initialization
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 5 iterations
+There were 11 warnings (use warnings() to see them)
+Computing nearest neighbor graph
+Computing SNN
+1 singletons identified. 18 final clusters.
+1 singletons identified. 23 final clusters.
+1 singletons identified. 30 final clusters.
+1 singletons identified. 32 final clusters.
+1 singletons identified. 38 final clusters.
+1 singletons identified. 43 final clusters.
+1 singletons identified. 46 final clusters.
+1 singletons identified. 48 final clusters.
+1 singletons identified. 51 final clusters.
+Warning messages:
+1: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+2: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+3: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+4: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+5: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+6: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+7: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+8: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+9: UNRELIABLE VALUE: One of the ‘future.apply’ iterations (‘future_lapply-1’) unexpectedly generated random numbers without declaring so. There is a risk that those random numbers are not statistically sound and the overall results might be invalid. To fix this, specify 'future.seed=TRUE'. This ensures that proper, parallel-safe random numbers are produced via the L'Ecuyer-CMRG method. To disable this check, use 'future.seed = NULL', or set option 'future.rng.onMisuse' to "ignore". 
+01:40:14 UMAP embedding parameters a = 0.9922 b = 1.112
+01:40:14 Read 201706 rows and found 31 numeric columns
+01:40:14 Using Annoy for neighbor search, n_neighbors = 30
+01:40:14 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+01:40:41 Writing NN index file to temp file /tmp/RtmpIkIphj/file4399d363bb9f7
+01:40:41 Searching Annoy index using 4 threads, search_k = 3000
+01:41:10 Annoy recall = 100%
+01:41:11 Commencing smooth kNN distance calibration using 4 threads with target n_neighbors = 30
+01:41:16 Initializing from normalized Laplacian + noise (using RSpectra)
+01:41:37 Commencing optimization for 200 epochs, with 9397170 positive edges
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+01:43:24 Optimization finished
