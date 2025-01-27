@@ -27,7 +27,7 @@ fastq_files=(${fastq_dir}/*.fastq)
 
 # Get a single file for the current task
 fastq_file=${fastq_files[$SLURM_ARRAY_TASK_ID]}
-srun fastqc -o $fastqc_output "$fastq_file"
+fastqc -o $fastqc_output "$fastq_file"
 
 ##### END #####
 echo "done"

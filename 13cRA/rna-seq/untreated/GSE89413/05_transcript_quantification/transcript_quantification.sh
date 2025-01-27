@@ -16,7 +16,7 @@
 
 ##### PACKAGES #####
 module load Anaconda3
-conda activate featurecounts
+conda activate rna-seq
 
 ##### VARIABLES #####
 bam_dir="/data/scratch/flanary/rna-seq/untreated/GSE89413/bam"

@@ -16,7 +16,7 @@
 
 ##### PACKAGES #####
 module load Anaconda3
-conda activate trim_galore_env
+conda activate atac-seq
 
 ##### VARIABLES #####
 wd="/data/scratch/flanary/atac-seq/untreated/GSE138293"

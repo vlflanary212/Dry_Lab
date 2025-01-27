@@ -16,7 +16,7 @@
 
 ##### PACKAGES #####
 module load Anaconda3
-conda activate call_peaks
+conda activate atac-seq
 
 ##### VARIABLES #####
 wd="/data/scratch/flanary/atac-seq/untreated/Sen_240503"
