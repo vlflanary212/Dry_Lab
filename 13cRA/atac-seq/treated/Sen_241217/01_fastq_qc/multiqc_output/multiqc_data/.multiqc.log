@@ -1,0 +1,47 @@
+[2025-01-26 20:50:15,582] multiqc                                            [DEBUG  ]  No MultiQC config found: /data/rc/apps/ngs-ccts/MultiQC/0.8/lib/python2.7/site-packages/multiqc_config.yaml
+[2025-01-26 20:50:15,582] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/flanary/.multiqc_config.yaml
+[2025-01-26 20:50:15,582] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2025-01-26 20:50:15,582] multiqc                                            [DEBUG  ]  No MultiQC config found: /data/rc/apps/ngs-ccts/MultiQC/0.8/lib/python2.7/site-packages/multiqc_config.yaml
+[2025-01-26 20:50:15,583] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/flanary/.multiqc_config.yaml
+[2025-01-26 20:50:15,583] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2025-01-26 20:50:15,583] multiqc                                            [DEBUG  ]  Command used: /share/apps/ngs-ccts/MultiQC/0.8/bin/multiqc -v /home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output -o /home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/multiqc_output
+[2025-01-26 20:50:15,583] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2025-01-26 20:50:15,583] multiqc                                            [INFO   ]  This is MultiQC v0.8
+[2025-01-26 20:50:15,583] multiqc                                            [DEBUG  ]  Command     : /share/apps/ngs-ccts/MultiQC/0.8/bin/multiqc -v /home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output -o /home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/multiqc_output
+[2025-01-26 20:50:15,583] multiqc                                            [DEBUG  ]  Working dir : /data/user/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc
+[2025-01-26 20:50:15,584] multiqc                                            [INFO   ]  Template    : default
+[2025-01-26 20:50:15,585] multiqc                                            [INFO   ]  Searching '/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output'
+[2025-01-26 20:50:15,585] multiqc                                            [DEBUG  ]  Analysing modules: gatk, quast, snpeff, qualimap, bcftools, featureCounts, methylQA, rseqc, picard, preseq, samblaster, samtools, bamtools, bismark, hicup, salmon, kallisto, star, tophat, bowtie2, bowtie1, cutadapt, trimmomatic, skewer, fastq_screen, fastqc
+[2025-01-26 20:50:15,585] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /scratch/local/tmpEfBTGr
+[2025-01-26 20:50:16,662] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:16,683] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:16,764] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:16,813] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:16,907] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:16,919] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:16,940] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:17,232] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:17,716] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:17,773] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:17,850] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,013] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,087] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,130] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,156] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,166] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,244] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,255] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,285] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,358] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,433] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,497] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,577] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,675] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:18,688] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/fastqc_output',)
+[2025-01-26 20:50:25,004] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 16 reports
+[2025-01-26 20:50:25,585] multiqc                                            [INFO   ]  Report      : ../../../../../../../../../../home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_report.html
+[2025-01-26 20:50:25,587] multiqc                                            [INFO   ]  Data        : ../../../../../../../../../../home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_data
+[2025-01-26 20:50:25,587] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/local/tmpEfBTGr/multiqc_data/multiqc_fastqc.txt' to '/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_data'
+[2025-01-26 20:50:25,588] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/local/tmpEfBTGr/multiqc_data/multiqc_general_stats.txt' to '/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_data'
+[2025-01-26 20:50:25,589] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/local/tmpEfBTGr/multiqc_data/multiqc_sources.txt' to '/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/01_fastq_qc/multiqc_output/multiqc_data'
+[2025-01-26 20:50:26,140] multiqc                                            [INFO   ]  MultiQC complete
