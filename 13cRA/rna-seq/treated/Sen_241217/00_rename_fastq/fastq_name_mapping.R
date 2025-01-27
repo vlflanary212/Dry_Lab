@@ -49,7 +49,7 @@ write.table(
 
 write.table(
   unique(ra_lines),
-  here("13cRA", "rna-seq", "treated", "Sen_241217", "cel_lines.txt"),
+  here("13cRA", "rna-seq", "treated", "Sen_241217", "cell_lines.txt"),
   sep = "\t",
   row.names = FALSE,
   col.names = FALSE,
