@@ -41,5 +41,8 @@ samtools idxstats $bam_dir/"$sample"_rmdup.bam | cut -f 1 | grep -v chrM | xargs
 # index again
 samtools index $bam_dir/"$sample"_final.bam
 
+# copy the final bam files to a separate directory
+cp $bam_dir/"sample"_final.bam $output_dir
+
 ##### END #####
 echo "Post-alignment processing complete for $sample"
