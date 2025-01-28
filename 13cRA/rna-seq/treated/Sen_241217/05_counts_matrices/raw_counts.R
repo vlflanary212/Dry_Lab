@@ -10,8 +10,8 @@ library(here)
 
 # GSE89413
 ## Define filepaths
-file_dir <- "/data/scratch/flanary/rna-seq/treated/Sen_241217/counts"
-sample_list <- "/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/cell_lines.txt"
+file_dir <- "/Users/victoriaflanary/Library/CloudStorage/Box-Box//Data/rna-seq/treated/Sen_241217/counts"
+sample_list <- here("13cRA", "rna-seq", "treated", "Sen_241217", "cell_lines.txt")
 
 ## Read in sample list
 samples <- readLines(sample_list)
@@ -37,7 +37,7 @@ merged_counts <- merged_counts[, colnames(merged_counts) != "gene_id"]
 # Save the merged counts
 write.table(
   merged_counts,
-  here("/home/flanary/Dry_Lab/13cRA/rna-seq/treated/Sen_241217/raw_counts.txt"),
+  here("13cRA", "rna-seq", "treated", "Sen_241217", "raw_counts.txt"),
   sep = "\t",
   row.names = TRUE,
   col.names = TRUE,

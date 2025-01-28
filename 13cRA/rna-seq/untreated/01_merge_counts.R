@@ -10,14 +10,14 @@ library(here)
 
 # GSE28875
 ## Only has a single sample - retrieve counts directly
-hncc_file <- "/data/scratch/flanary/rna-seq/untreated/GSE28875/SRR191362/counts.txt"
+hncc_file <- "/Users/victoriaflanary/Library/CloudStorage/Box-Box/Data/rna-seq/untreated/GSE28875/SRR191362/counts.txt"
 hncc_counts <- fread(hncc_file, header = TRUE) |> as.data.frame()
 colnames(hncc_counts) <- c("gene_id", "SRR191362")
 
 # GSE89413
 ## Define filepaths
-file_dir <- "/data/scratch/flanary/rna-seq/untreated/GSE89413"
-sample_list <- "/home/flanary/Dry_Lab/13cRA/rna-seq/untreated/GSE89413/SRR_Acc_List.txt"
+file_dir <- "/Users/victoriaflanary/Library/CloudStorage/Box-Box/Data/rna-seq/untreated/GSE89413"
+sample_list <- here("13cRA", "rna-seq", "untreated", "GSE89413", "SRR_Acc_List.txt")
 
 ## Read in sample list
 samples <- readLines(sample_list)
@@ -43,10 +43,20 @@ merged_counts <- full_join(nb_counts, hncc_counts, by = "gene_id")
 rownames(merged_counts) <- merged_counts$gene_id
 merged_counts <- merged_counts[, colnames(merged_counts) != "gene_id"]
 
+# Change colnames from srr_id to cell line name
+## Load metadata
+metadata <- read_csv(here("13cRA", "rna-seq", "untreated", "00_combined_metadata.csv"))
+
+## Ensure colnames match run in the metadata
+identical(colnames(merged_counts), metadata$run)  # TRUE
+
+## Replace colnames with corresponding cell line
+colnames(merged_counts) <- metadata$cell_line
+
 # Save the merged counts
 write.table(
   merged_counts,
-  here("/home/flanary/Dry_Lab/13cRA/rna-seq/untreated/raw_counts.txt"),
+  here("13cRA", "rna-seq", "untreated", "raw_counts.txt"),
   sep = "\t",
   row.names = TRUE,
   col.names = TRUE,
