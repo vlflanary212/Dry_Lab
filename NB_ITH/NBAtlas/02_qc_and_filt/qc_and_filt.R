@@ -42,17 +42,19 @@ seurat_obj <- seurat_obj |>
 ## Violin plots
 features <- c("nCount_RNA", "nFeature_RNA", "percent_mito", 
               "percent_ribo", "percent_hb")
+
+for (i in features) {
 pdf(
-  here(results_dir, "unfilt", "qc_violin_plots.pdf"),
+  here(results_dir, "unfilt", paste0(i, "_violin.pdf")),
   height = 8, width = 8
 )
 
-for (i in features) {
-  print(VlnPlot(seurat_obj, group.by = "Batch", features = i, raster = FALSE) +
-          NoLegend())
-}
+print(VlnPlot(seurat_obj, group.by = "Batch", features = i, raster = FALSE) +
+      NoLegend())
 
 dev.off()
+}
+
 
 ## Ridge plots
 pdf(
@@ -188,17 +190,17 @@ dim(seurat_filt)  # 42412 310165
 
 # Re-plot QC metrics
 ## Violin plots
+for (i in features) {
 pdf(
-  here(results_dir, "filt", "qc_violin_plots.pdf"),
+  here(results_dir, "filt", paste0(i, "_violin.pdf")),
   height = 8, width = 8
 )
 
-for (i in features) {
   print(VlnPlot(seurat_filt, group.by = "Batch", features = i, raster = FALSE) +
           NoLegend())
-}
 
 dev.off()
+}
 
 ## Ridge plots
 pdf(
