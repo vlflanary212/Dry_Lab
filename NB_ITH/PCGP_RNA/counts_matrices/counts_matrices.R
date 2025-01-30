@@ -5,13 +5,13 @@
 # Load packages
 library(tidyverse)
 library(data.table)
-library(here)]
+library(here)
 
 # Raw Counts
 ## Define file paths
 sample_file <- "/data/project/sen-lab/external/processed/St_Jude/RNAseq/sample.txt"
 rnaseq_dir <- "/data/project/sen-lab/external/processed/St_Jude/RNAseq/realigned_bam"
-results_dir <- here("NB_ITH". "PCGP_RNA", "counts_matrices")
+results_dir <- here("NB_ITH", "PCGP_RNA", "counts_matrices")
 
 ## Read in the sample list
 samples <- readLines(sample_file)

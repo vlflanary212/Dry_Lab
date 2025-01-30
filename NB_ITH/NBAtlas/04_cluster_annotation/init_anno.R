@@ -8,11 +8,12 @@ set.seed(42)
 
 # Load packages
 library(Seurat)
+library(tidyverse)
 library(patchwork)
 library(here)
 
 # Set filepaths
-data_dir <- here("NB_ITH", "NBAtlas", "data", "subset")
+data_dir <- here("NB_ITH", "NBAtlas", "data", "alldata")
 results_dir <- here("NB_ITH", "NBAtlas", "04_cluster_annotation")
 
 # Load data
@@ -21,14 +22,14 @@ seurat_obj <- readRDS(here(data_dir, "06_dea_obj.rds"))
 # Rename non-tumor cell clusters
 seurat_anno <- RenameIdents(
   seurat_obj,
-  '1' = "T cells",
-  '13' = "NK cells",
+  '0' = "T cells",
+  '12' = "NK cells",
   '10' = "B cells",
-  '20' = "Plasma cells",
+  '19' = "Plasma cells",
   '5' = "Myeloid cells",
   '11' = "Endothelial cells",
-  '9' = "Fibroblasts",
-  '18' = "Schwann Cell Precursors"
+  '7' = "Fibroblasts",
+  '20' = "Schwann Cell Precursors"
 )
 
 # Split the object by annotated and non-annotated clusters

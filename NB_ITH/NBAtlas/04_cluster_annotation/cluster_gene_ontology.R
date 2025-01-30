@@ -6,6 +6,9 @@
 # Set.seed
 set.seed(42)
 
+# Install topGO
+BiocManager::install("topGO")
+
 # Load packages
 library(Seurat)
 library(topGO)

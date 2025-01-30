@@ -9,7 +9,7 @@ library(tidyverse)
 library(here)
 
 # Set filepaths
-data_dir <- here("NB_ITH", "NBAtlas", "data", "subset")
+data_dir <- here("NB_ITH", "NBAtlas", "data", "alldata")
 results_dir <- here("NB_ITH", "NBAtlas", "dwls_signature_matrix")
 
 # Load data
@@ -50,7 +50,7 @@ write_csv(
 
 # Convert gene names to gene ids
 ## Read in gtf annotations
-gtf_file <- "~/Library/CloudStorage/Box-Box/Sen_Lab/Computational/Genome/hg38/gencode.v22.annotation.gtf"
+gtf_file <- here("docs", "gencode.v22.annotation.gtf")
 gtf <- as.data.frame(rtracklayer::import(gtf_file))
 
 ## Filter gtf file for gene entries in agg_exp
