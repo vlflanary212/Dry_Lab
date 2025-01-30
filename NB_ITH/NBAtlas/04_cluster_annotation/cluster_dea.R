@@ -29,6 +29,12 @@ seurat_obj <- JoinLayers(seurat_obj)
 seurat_obj <- SetIdent(seurat_obj, value = "RNA_snn_res.0.3")
 table(seurat_obj@active.ident)
 
+# Save current object
+saveRDS(
+  seurat_obj,
+  here(data_dir, "06_dea_obj.rds")
+)
+
 # Clusters drastically range in size from several thousand to less than 100
 # Want to balance groups to reduce bias toward larger clusters while 
 # Preserving biological signals from these large clusters
