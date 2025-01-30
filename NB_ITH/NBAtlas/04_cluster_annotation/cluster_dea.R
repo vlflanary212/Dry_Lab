@@ -16,7 +16,7 @@ options(future.globals.maxSize = 256 * 1024^3)  # 256 GB maximum RAM
 plan("multisession", workers = 4)  # parallelize across 4 cores
 
 # Set filepaths
-data_dir <- here("NB_ITH", "NBAtlas", "data", "subset")
+data_dir <- here("NB_ITH", "NBAtlas", "data", "alldata")
 results_dir <- here("NB_ITH", "NBAtlas", "04_cluster_annotation")
 
 # Load data
@@ -26,7 +26,7 @@ seurat_obj <- readRDS(here(data_dir, "05_harmony_clust.rds"))
 seurat_obj <- JoinLayers(seurat_obj)
 
 # Set Ident to desired cluster size
-seurat_obj <- SetIdent(seurat_obj, value = "RNA_snn_res.0.3")
+seurat_obj <- SetIdent(seurat_obj, value = "RNA_snn_res.0.2")
 table(seurat_obj@active.ident)
 
 # Clusters drastically range in size from several thousand to less than 100
