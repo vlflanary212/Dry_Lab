@@ -248,8 +248,4 @@ dev.off()
 
 # Save the integrated object
 saveRDS(
-  seurat_harmony_clust,
-  here(data_dir, "05_harmony_clust.rds")
-)
-
-# End of script
+  seurat_harmony_clu
