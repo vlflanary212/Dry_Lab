@@ -6,9 +6,6 @@
 # Set.seed
 set.seed(42)
 
-# Install topGO
-BiocManager::install("topGO")
-
 # Load packages
 library(Seurat)
 library(topGO)
@@ -17,7 +14,7 @@ library(tidyverse)
 library(here)
 
 # Set filepaths
-data_dir <- here("NB_ITH", "NBAtlas", "data", "subset")
+data_dir <- here("NB_ITH", "NBAtlas", "data", "alldata")
 results_dir <- here("NB_ITH", "NBAtlas", "04_cluster_annotation")
 
 # Load data

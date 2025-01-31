@@ -2,7 +2,7 @@
 
 ##### SLURM #####
 #SBATCH --job-name=dwls
-#SBATCH --partition=largemem
+#SBATCH --partition=medium,long,largemem
 #SBATCH --time=49:59:59
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

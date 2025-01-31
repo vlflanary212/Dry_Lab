@@ -9,8 +9,9 @@ library(here)
 
 # Raw Counts
 ## Define file paths
-sample_file <- "/data/project/sen-lab/external/processed/St_Jude/RNAseq/sample.txt"
-rnaseq_dir <- "/data/project/sen-lab/external/processed/St_Jude/RNAseq/realigned_bam"
+data_dir <- "~/Library/CloudStorage/Box-Box/Sen_Lab/Computational/PCGP/RNAseq"
+sample_file <- file.path(data_dir, "sample.txt")
+rnaseq_dir <- file.path(data_dir, "realigned_bam")
 results_dir <- here("NB_ITH", "PCGP_RNA", "counts_matrices")
 
 ## Read in the sample list

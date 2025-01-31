@@ -84,7 +84,7 @@ variance_explained <- (pca_stdev^2) / sum(pca_stdev^2) * 100
 ## Calculate the cumulative percent variance explained by each calculated PC
 cumulative_variance <- cumsum(variance_explained)
 
-## Identify the minimum number of PCs that capture 90% of the variance
+## Identify the minimum number of PCs that capture 95% of the variance
 npcs <- which(cumulative_variance >= 95)[1]  # 40 PCs
 
 # Save the object
