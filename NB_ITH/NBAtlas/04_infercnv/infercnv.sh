@@ -3,9 +3,10 @@
 ##### SLURM #####
 #SBATCH --job-name=infercnv
 #SBATCH --partition=long, largemem-long
-#SBATCH --time=100:00:00
+#SBATCH --time=149:59:59
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
+#SBATCH --cpus-per-task=1
 #SBATCH --mem=256G
 #SBATCH --output=%x_%j.out
 #SBATCH --error=%x_%j.err
