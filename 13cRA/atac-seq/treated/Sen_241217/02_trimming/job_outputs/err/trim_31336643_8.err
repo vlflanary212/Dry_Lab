@@ -1,0 +1,413 @@
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 5.0
+Could not detect version of Python used by Cutadapt from the first line of Cutadapt (but found this: >>>#!/bin/sh<<<)
+Letting the (modified) Cutadapt deal with the Python version instead
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 8 cores
+
+igzip detected. Using igzip for decompressing
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /scratch/flanary/atac-seq/treated/Sen_241217/trimmed_fastq/
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /data/scratch/flanary/atac-seq/treated/Sen_241217/fastq/SY5Y_rep2_R1.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	325073	CTGTCTCTTATA	1000000	32.51
+smallRNA	1	TGGAATTCTCGG	1000000	0.00
+Illumina	0	AGATCGGAAGAGC	1000000	0.00
+Using Nextera adapter for trimming (count: 325073). Second best hit was smallRNA (count: 1)
+
+Writing report to '/scratch/flanary/atac-seq/treated/Sen_241217/trimmed_fastq/SY5Y_rep2_R1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /data/scratch/flanary/atac-seq/treated/Sen_241217/fastq/SY5Y_rep2_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 5.0
+Python version: could not detect
+Number of cores used for trimming: 8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 30 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 5.0). Setting -j 8
+Writing final adapter and quality trimmed output to SY5Y_rep2_R1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /data/scratch/flanary/atac-seq/treated/Sen_241217/fastq/SY5Y_rep2_R1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+70000000 sequences processed
+80000000 sequences processed
+90000000 sequences processed
+100000000 sequences processed
+110000000 sequences processed
+120000000 sequences processed
+130000000 sequences processed
+140000000 sequences processed
+150000000 sequences processed
+160000000 sequences processed
+170000000 sequences processed
+180000000 sequences processed
+190000000 sequences processed
+200000000 sequences processed
+210000000 sequences processed
+220000000 sequences processed
+230000000 sequences processed
+240000000 sequences processed
+250000000 sequences processed
+This is cutadapt 5.0 with Python 3.11.11
+Command line parameters: -j 8 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /data/scratch/flanary/atac-seq/treated/Sen_241217/fastq/SY5Y_rep2_R1.fastq.gz
+Processing single-end reads on 8 cores ...
+
+=== Summary ===
+
+Total reads processed:             253,380,315
+Reads with adapters:               147,154,116 (58.1%)
+Reads written (passing filters):   253,380,315 (100.0%)
+
+Total basepairs processed: 25,591,411,815 bp
+Quality-trimmed:              92,706,736 bp (0.4%)
+Total written (filtered):  21,827,449,647 bp (85.3%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 147154116 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 13.4%
+  C: 40.2%
+  G: 25.5%
+  T: 20.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	36275449	63345078.8	0	36275449
+2	12108630	15836269.7	0	12108630
+3	4268311	3959067.4	0	4268311
+4	1792608	989766.9	0	1792608
+5	1203391	247441.7	0	1203391
+6	1104223	61860.4	0	1104223
+7	1037856	15465.1	0	1037856
+8	973339	3866.3	0	973339
+9	920769	966.6	0	908480 12289
+10	937326	241.6	1	911345 25981
+11	919083	60.4	1	891135 27948
+12	1019751	15.1	1	978690 41061
+13	1009359	15.1	1	974122 35237
+14	1156634	15.1	1	1111527 45107
+15	1175240	15.1	1	1132199 43041
+16	1294711	15.1	1	1240551 54160
+17	1162506	15.1	1	1121469 41037
+18	1138667	15.1	1	1098266 40401
+19	1089746	15.1	1	1051333 38413
+20	1111999	15.1	1	1071782 40217
+21	1078939	15.1	1	1037492 41447
+22	1083517	15.1	1	1046646 36871
+23	1220565	15.1	1	1172952 47613
+24	1244020	15.1	1	1200942 43078
+25	1320363	15.1	1	1271775 48588
+26	1366984	15.1	1	1313996 52988
+27	1387953	15.1	1	1336547 51406
+28	1399964	15.1	1	1346053 53911
+29	1373743	15.1	1	1322087 51656
+30	1249432	15.1	1	1206173 43259
+31	1312297	15.1	1	1263303 48994
+32	1201735	15.1	1	1161446 40289
+33	1349153	15.1	1	1292691 56462
+34	1491319	15.1	1	1435958 55361
+35	1500794	15.1	1	1448193 52601
+36	1662643	15.1	1	1598736 63907
+37	1654616	15.1	1	1595670 58946
+38	1596621	15.1	1	1538026 58595
+39	1596611	15.1	1	1542226 54385
+40	1531186	15.1	1	1475133 56053
+41	1479919	15.1	1	1430165 49754
+42	1537389	15.1	1	1476181 61208
+43	1561042	15.1	1	1507287 53755
+44	1646200	15.1	1	1583819 62381
+45	1976072	15.1	1	1901685 74387
+46	2064558	15.1	1	1940260 124298
+47	3988870	15.1	1	3933978 54892
+48	733032	15.1	1	673508 59524
+49	1775481	15.1	1	1649621 125860
+50	4430592	15.1	1	4354971 75621
+51	1731843	15.1	1	1688350 43493
+52	908315	15.1	1	823454 84861
+53	3011741	15.1	1	2948350 63391
+54	1760696	15.1	1	1715937 44759
+55	1262311	15.1	1	1186805 75506
+56	2837834	15.1	1	2693517 144317
+57	4855049	15.1	1	4790332 64717
+58	1578378	15.1	1	1522339 56039
+59	1413806	15.1	1	1379528 34278
+60	930927	15.1	1	864903 66024
+61	2138695	15.1	1	2115141 23554
+62	377272	15.1	1	358254 19018
+63	481588	15.1	1	429087 52501
+64	1701245	15.1	1	1677886 23359
+65	397869	15.1	1	385402 12467
+66	151711	15.1	1	138972 12739
+67	224595	15.1	1	212728 11867
+68	291714	15.1	1	283700 8014
+69	35051	15.1	1	29065 5986
+70	97247	15.1	1	91706 5541
+71	122567	15.1	1	116322 6245
+72	149784	15.1	1	146046 3738
+73	11866	15.1	1	4716 7150
+74	19696	15.1	1	15674 4022
+75	43276	15.1	1	26664 16612
+76	8534	15.1	1	2873 5661
+77	3603	15.1	1	1701 1902
+78	9001	15.1	1	2273 6728
+79	3070	15.1	1	830 2240
+80	6717	15.1	1	2551 4166
+81	3118	15.1	1	578 2540
+82	3480	15.1	1	1735 1745
+83	5752	15.1	1	318 5434
+84	2077	15.1	1	408 1669
+85	10287	15.1	1	195 10092
+86	3009	15.1	1	220 2789
+87	2143	15.1	1	204 1939
+88	5837	15.1	1	142 5695
+89	2163	15.1	1	97 2066
+90	1706	15.1	1	73 1633
+91	5288	15.1	1	186 5102
+92	2864	15.1	1	667 2197
+93	9027	15.1	1	227 8800
+94	908	15.1	1	24 884
+95	1379	15.1	1	40 1339
+96	714	15.1	1	15 699
+97	1651	15.1	1	29 1622
+98	6687	15.1	1	128 6559
+99	1339	15.1	1	36 1303
+100	2023	15.1	1	17 2006
+101	1455	15.1	1	889 566
+
+RUN STATISTICS FOR INPUT FILE: /data/scratch/flanary/atac-seq/treated/Sen_241217/fastq/SY5Y_rep2_R1.fastq.gz
+=============================================
+253380315 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/flanary/atac-seq/treated/Sen_241217/trimmed_fastq/SY5Y_rep2_R2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /data/scratch/flanary/atac-seq/treated/Sen_241217/fastq/SY5Y_rep2_R2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 5.0
+Python version: could not detect
+Number of cores used for trimming: 8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 30 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 5.0). Setting -j -j 8
+Writing final adapter and quality trimmed output to SY5Y_rep2_R2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /data/scratch/flanary/atac-seq/treated/Sen_241217/fastq/SY5Y_rep2_R2.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+70000000 sequences processed
+80000000 sequences processed
+90000000 sequences processed
+100000000 sequences processed
+110000000 sequences processed
+120000000 sequences processed
+130000000 sequences processed
+140000000 sequences processed
+150000000 sequences processed
+160000000 sequences processed
+170000000 sequences processed
+180000000 sequences processed
+190000000 sequences processed
+200000000 sequences processed
+210000000 sequences processed
+220000000 sequences processed
+230000000 sequences processed
+240000000 sequences processed
+250000000 sequences processed
+This is cutadapt 5.0 with Python 3.11.11
+Command line parameters: -j 8 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /data/scratch/flanary/atac-seq/treated/Sen_241217/fastq/SY5Y_rep2_R2.fastq.gz
+Processing single-end reads on 8 cores ...
+
+=== Summary ===
+
+Total reads processed:             253,380,315
+Reads with adapters:               147,268,277 (58.1%)
+Reads written (passing filters):   253,380,315 (100.0%)
+
+Total basepairs processed: 25,591,411,815 bp
+Quality-trimmed:              46,429,655 bp (0.2%)
+Total written (filtered):  21,810,601,683 bp (85.2%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 147268277 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 13.3%
+  C: 40.3%
+  G: 25.5%
+  T: 20.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	36402216	63345078.8	0	36402216
+2	12003206	15836269.7	0	12003206
+3	4301234	3959067.4	0	4301234
+4	1804966	989766.9	0	1804966
+5	1217458	247441.7	0	1217458
+6	1096111	61860.4	0	1096111
+7	1045280	15465.1	0	1045280
+8	973124	3866.3	0	973124
+9	930281	966.6	0	919227 11054
+10	936091	241.6	1	917810 18281
+11	926467	60.4	1	914491 11976
+12	1012485	15.1	1	996289 16196
+13	1016411	15.1	1	1005320 11091
+14	1148379	15.1	1	1130993 17386
+15	1185222	15.1	1	1171728 13494
+16	1250960	15.1	1	1228826 22134
+17	1181479	15.1	1	1169005 12474
+18	1141372	15.1	1	1129272 12100
+19	1112063	15.1	1	1099499 12564
+20	1083616	15.1	1	1072632 10984
+21	1075465	15.1	1	1059706 15759
+22	1131794	15.1	1	1117678 14116
+23	1174155	15.1	1	1160929 13226
+24	1280044	15.1	1	1263907 16137
+25	1317111	15.1	1	1304482 12629
+26	1350483	15.1	1	1333643 16840
+27	1408156	15.1	1	1392667 15489
+28	1397438	15.1	1	1378803 18635
+29	1321978	15.1	1	1308998 12980
+30	1294105	15.1	1	1280723 13382
+31	1248843	15.1	1	1231028 17815
+32	1274528	15.1	1	1262841 11687
+33	1397627	15.1	1	1380966 16661
+34	1396566	15.1	1	1378349 18217
+35	1538373	15.1	1	1525273 13100
+36	1601685	15.1	1	1583726 17959
+37	1668589	15.1	1	1652127 16462
+38	1630399	15.1	1	1610668 19731
+39	2080160	15.1	1	2062384 17776
+40	1017384	15.1	1	1005524 11860
+41	1494968	15.1	1	1479740 15228
+42	1497307	15.1	1	1481576 15731
+43	1557669	15.1	1	1539561 18108
+44	1685993	15.1	1	1670623 15370
+45	1730737	15.1	1	1716049 14688
+46	1874187	15.1	1	1857252 16935
+47	1974439	15.1	1	1955253 19186
+48	1989110	15.1	1	1968719 20391
+49	1885919	15.1	1	1870665 15254
+50	1909825	15.1	1	1891420 18405
+51	1841066	15.1	1	1823074 17992
+52	1786813	15.1	1	1771178 15635
+53	1822913	15.1	1	1807867 15046
+54	1922707	15.1	1	1905330 17377
+55	2107193	15.1	1	2089569 17624
+56	2320707	15.1	1	2301142 19565
+57	2232952	15.1	1	2215445 17507
+58	2233221	15.1	1	2212377 20844
+59	2358373	15.1	1	2339343 19030
+60	1774373	15.1	1	1759062 15311
+61	1879257	15.1	1	1864518 14739
+62	1748108	15.1	1	1733290 14818
+63	1577868	15.1	1	1564453 13415
+64	1307183	15.1	1	1294612 12571
+65	1266062	15.1	1	1256123 9939
+66	517386	15.1	1	511396 5990
+67	309650	15.1	1	305889 3761
+68	190057	15.1	1	183070 6987
+69	149421	15.1	1	145521 3900
+70	116268	15.1	1	112663 3605
+71	127040	15.1	1	123995 3045
+72	178957	15.1	1	175963 2994
+73	202006	15.1	1	194455 7551
+74	151830	15.1	1	148519 3311
+75	69924	15.1	1	52982 16942
+76	10533	15.1	1	4347 6186
+77	4091	15.1	1	2263 1828
+78	7278	15.1	1	496 6782
+79	2660	15.1	1	644 2016
+80	6506	15.1	1	2270 4236
+81	3039	15.1	1	613 2426
+82	3420	15.1	1	1676 1744
+83	5773	15.1	1	333 5440
+84	1972	15.1	1	446 1526
+85	10647	15.1	1	207 10440
+86	2856	15.1	1	253 2603
+87	2257	15.1	1	232 2025
+88	5933	15.1	1	174 5759
+89	2009	15.1	1	109 1900
+90	1654	15.1	1	85 1569
+91	5361	15.1	1	186 5175
+92	2878	15.1	1	720 2158
+93	8949	15.1	1	245 8704
+94	878	15.1	1	21 857
+95	1236	15.1	1	43 1193
+96	581	15.1	1	20 561
+97	1326	15.1	1	24 1302
+98	6687	15.1	1	135 6552
+99	1382	15.1	1	44 1338
+100	2140	15.1	1	24 2116
+101	1438	15.1	1	955 483
+
+RUN STATISTICS FOR INPUT FILE: /data/scratch/flanary/atac-seq/treated/Sen_241217/fastq/SY5Y_rep2_R2.fastq.gz
+=============================================
+253380315 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files SY5Y_rep2_R1_trimmed.fq.gz and SY5Y_rep2_R2_trimmed.fq.gz
+file_1: SY5Y_rep2_R1_trimmed.fq.gz, file_2: SY5Y_rep2_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: SY5Y_rep2_R1_trimmed.fq.gz and SY5Y_rep2_R2_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to SY5Y_rep2_R1_val_1.fq.gz
+Writing validated paired-end Read 2 reads to SY5Y_rep2_R2_val_2.fq.gz
+
+Total number of sequences analysed: 253380315
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (30 bp): 958999 (0.38%)
+
+Deleting both intermediate output files SY5Y_rep2_R1_trimmed.fq.gz and SY5Y_rep2_R2_trimmed.fq.gz
+
+====================================================================================================
+

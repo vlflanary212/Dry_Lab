@@ -1,0 +1,16 @@
+IMR5_1_S29_R1_001.fastq.gz	IMR5_rep1_R1.fastq.gz
+IMR5_1_S29_R2_001.fastq.gz	IMR5_rep1_R2.fastq.gz
+IMR5_2_S30_R1_001.fastq.gz	IMR5_rep2_R1.fastq.gz
+IMR5_2_S30_R2_001.fastq.gz	IMR5_rep2_R2.fastq.gz
+SHEP1_S31_R1_001.fastq.gz	SHEP_rep1_R1.fastq.gz
+SHEP1_S31_R2_001.fastq.gz	SHEP_rep1_R2.fastq.gz
+SHEP2_S32_R1_001.fastq.gz	SHEP_rep2_R1.fastq.gz
+SHEP2_S32_R2_001.fastq.gz	SHEP_rep2_R2.fastq.gz
+SKNAS1_S33_R1_001.fastq.gz	SKNAS_rep1_R1.fastq.gz
+SKNAS1_S33_R2_001.fastq.gz	SKNAS_rep1_R2.fastq.gz
+SKNAS2_S34_R1_001.fastq.gz	SKNAS_rep2_R1.fastq.gz
+SKNAS2_S34_R2_001.fastq.gz	SKNAS_rep2_R2.fastq.gz
+SY5Y_1_S35_R1_001.fastq.gz	SY5Y_rep1_R1.fastq.gz
+SY5Y_1_S35_R2_001.fastq.gz	SY5Y_rep1_R2.fastq.gz
+SY5Y_2_S36_R1_001.fastq.gz	SY5Y_rep2_R1.fastq.gz
+SY5Y_2_S36_R2_001.fastq.gz	SY5Y_rep2_R2.fastq.gz

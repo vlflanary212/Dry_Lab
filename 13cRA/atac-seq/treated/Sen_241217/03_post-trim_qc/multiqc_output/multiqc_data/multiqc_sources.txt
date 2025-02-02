@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SKNAS_rep1_R2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SKNAS_rep1_R2_val_2_fastqc.zip
+FastQC	all_sections	SHEP_rep1_R1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SHEP_rep1_R1_val_1_fastqc.zip
+FastQC	all_sections	IMR5_rep1_R2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/IMR5_rep1_R2_val_2_fastqc.zip
+FastQC	all_sections	SY5Y_rep1_R1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SY5Y_rep1_R1_val_1_fastqc.zip
+FastQC	all_sections	IMR5_rep1_R1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/IMR5_rep1_R1_val_1_fastqc.zip
+FastQC	all_sections	IMR5_rep2_R1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/IMR5_rep2_R1_val_1_fastqc.zip
+FastQC	all_sections	SHEP_rep2_R2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SHEP_rep2_R2_val_2_fastqc.zip
+FastQC	all_sections	SKNAS_rep2_R1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SKNAS_rep2_R1_val_1_fastqc.zip
+FastQC	all_sections	SY5Y_rep2_R1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SY5Y_rep2_R1_val_1_fastqc.zip
+FastQC	all_sections	SY5Y_rep1_R2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SY5Y_rep1_R2_val_2_fastqc.zip
+FastQC	all_sections	SKNAS_rep1_R1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SKNAS_rep1_R1_val_1_fastqc.zip
+FastQC	all_sections	IMR5_rep2_R2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/IMR5_rep2_R2_val_2_fastqc.zip
+FastQC	all_sections	SHEP_rep2_R1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SHEP_rep2_R1_val_1_fastqc.zip
+FastQC	all_sections	SHEP_rep1_R2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SHEP_rep1_R2_val_2_fastqc.zip
+FastQC	all_sections	SY5Y_rep2_R2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SY5Y_rep2_R2_val_2_fastqc.zip
+FastQC	all_sections	SKNAS_rep2_R2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/treated/Sen_241217/03_post-trim_qc/fastqc_output/SKNAS_rep2_R2_val_2_fastqc.zip

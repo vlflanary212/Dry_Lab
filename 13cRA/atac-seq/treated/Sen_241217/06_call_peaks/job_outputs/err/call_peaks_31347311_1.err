@@ -1,0 +1,165 @@
+'/data/scratch/flanary/atac-seq/treated/Sen_241217/final_bam/IMR5_final.bam' does not appear to have an index. You MUST index the file first!
+INFO  @ Mon, 27 Jan 2025 15:09:10: 
+# Command line: callpeak --treatment /data/scratch/flanary/atac-seq/treated/Sen_241217/final_bam/IMR5_final.bam --name IMR5 --outdir /data/scratch/flanary/atac-seq/treated/Sen_241217/peaks --gsize hs --nomodel --shift -75 --extsize 150 --keep-dup all --call-summits --pvalue 0.01
+# ARGUMENTS LIST:
+# name = IMR5
+# format = AUTO
+# ChIP-seq file = ['/data/scratch/flanary/atac-seq/treated/Sen_241217/final_bam/IMR5_final.bam']
+# control file = None
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# pvalue cutoff = 1.00e-02
+# qvalue will not be calculated and reported as -1 in the final output.
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+# Searching for subpeak summits is on
+ 
+INFO  @ Mon, 27 Jan 2025 15:09:10: #1 read tag files... 
+INFO  @ Mon, 27 Jan 2025 15:09:10: #1 read treatment tags... 
+INFO  @ Mon, 27 Jan 2025 15:09:10: Detected format is: BAM 
+INFO  @ Mon, 27 Jan 2025 15:09:10: * Input file is gzipped. 
+INFO  @ Mon, 27 Jan 2025 15:09:12:  1000000 
+INFO  @ Mon, 27 Jan 2025 15:09:15:  2000000 
+INFO  @ Mon, 27 Jan 2025 15:09:18:  3000000 
+INFO  @ Mon, 27 Jan 2025 15:09:21:  4000000 
+INFO  @ Mon, 27 Jan 2025 15:09:23:  5000000 
+INFO  @ Mon, 27 Jan 2025 15:09:26:  6000000 
+INFO  @ Mon, 27 Jan 2025 15:09:29:  7000000 
+INFO  @ Mon, 27 Jan 2025 15:09:32:  8000000 
+INFO  @ Mon, 27 Jan 2025 15:09:35:  9000000 
+INFO  @ Mon, 27 Jan 2025 15:09:37:  10000000 
+INFO  @ Mon, 27 Jan 2025 15:09:40:  11000000 
+INFO  @ Mon, 27 Jan 2025 15:09:43:  12000000 
+INFO  @ Mon, 27 Jan 2025 15:09:46:  13000000 
+INFO  @ Mon, 27 Jan 2025 15:09:48:  14000000 
+INFO  @ Mon, 27 Jan 2025 15:09:51:  15000000 
+INFO  @ Mon, 27 Jan 2025 15:09:54:  16000000 
+INFO  @ Mon, 27 Jan 2025 15:09:56:  17000000 
+INFO  @ Mon, 27 Jan 2025 15:09:59:  18000000 
+INFO  @ Mon, 27 Jan 2025 15:10:02:  19000000 
+INFO  @ Mon, 27 Jan 2025 15:10:05:  20000000 
+INFO  @ Mon, 27 Jan 2025 15:10:08:  21000000 
+INFO  @ Mon, 27 Jan 2025 15:10:10:  22000000 
+INFO  @ Mon, 27 Jan 2025 15:10:13:  23000000 
+INFO  @ Mon, 27 Jan 2025 15:10:16:  24000000 
+INFO  @ Mon, 27 Jan 2025 15:10:19:  25000000 
+INFO  @ Mon, 27 Jan 2025 15:10:21:  26000000 
+INFO  @ Mon, 27 Jan 2025 15:10:24:  27000000 
+INFO  @ Mon, 27 Jan 2025 15:10:27:  28000000 
+INFO  @ Mon, 27 Jan 2025 15:10:30:  29000000 
+INFO  @ Mon, 27 Jan 2025 15:10:32:  30000000 
+INFO  @ Mon, 27 Jan 2025 15:10:35:  31000000 
+INFO  @ Mon, 27 Jan 2025 15:10:38:  32000000 
+INFO  @ Mon, 27 Jan 2025 15:10:41:  33000000 
+INFO  @ Mon, 27 Jan 2025 15:10:44:  34000000 
+INFO  @ Mon, 27 Jan 2025 15:10:46:  35000000 
+INFO  @ Mon, 27 Jan 2025 15:10:49:  36000000 
+INFO  @ Mon, 27 Jan 2025 15:10:52:  37000000 
+INFO  @ Mon, 27 Jan 2025 15:10:55:  38000000 
+INFO  @ Mon, 27 Jan 2025 15:10:58:  39000000 
+INFO  @ Mon, 27 Jan 2025 15:11:00:  40000000 
+INFO  @ Mon, 27 Jan 2025 15:11:03:  41000000 
+INFO  @ Mon, 27 Jan 2025 15:11:06:  42000000 
+INFO  @ Mon, 27 Jan 2025 15:11:09:  43000000 
+INFO  @ Mon, 27 Jan 2025 15:11:12:  44000000 
+INFO  @ Mon, 27 Jan 2025 15:11:14:  45000000 
+INFO  @ Mon, 27 Jan 2025 15:11:17:  46000000 
+INFO  @ Mon, 27 Jan 2025 15:11:20:  47000000 
+INFO  @ Mon, 27 Jan 2025 15:11:23:  48000000 
+INFO  @ Mon, 27 Jan 2025 15:11:25:  49000000 
+INFO  @ Mon, 27 Jan 2025 15:11:28:  50000000 
+INFO  @ Mon, 27 Jan 2025 15:11:31:  51000000 
+INFO  @ Mon, 27 Jan 2025 15:11:34:  52000000 
+INFO  @ Mon, 27 Jan 2025 15:11:36:  53000000 
+INFO  @ Mon, 27 Jan 2025 15:11:39:  54000000 
+INFO  @ Mon, 27 Jan 2025 15:11:42:  55000000 
+INFO  @ Mon, 27 Jan 2025 15:11:45:  56000000 
+INFO  @ Mon, 27 Jan 2025 15:11:48:  57000000 
+INFO  @ Mon, 27 Jan 2025 15:11:50:  58000000 
+INFO  @ Mon, 27 Jan 2025 15:11:53:  59000000 
+INFO  @ Mon, 27 Jan 2025 15:11:56:  60000000 
+INFO  @ Mon, 27 Jan 2025 15:11:59:  61000000 
+INFO  @ Mon, 27 Jan 2025 15:12:02:  62000000 
+INFO  @ Mon, 27 Jan 2025 15:12:05:  63000000 
+INFO  @ Mon, 27 Jan 2025 15:12:07:  64000000 
+INFO  @ Mon, 27 Jan 2025 15:12:10:  65000000 
+INFO  @ Mon, 27 Jan 2025 15:12:13:  66000000 
+INFO  @ Mon, 27 Jan 2025 15:12:16:  67000000 
+INFO  @ Mon, 27 Jan 2025 15:12:19:  68000000 
+INFO  @ Mon, 27 Jan 2025 15:12:22:  69000000 
+INFO  @ Mon, 27 Jan 2025 15:12:24:  70000000 
+INFO  @ Mon, 27 Jan 2025 15:12:27:  71000000 
+INFO  @ Mon, 27 Jan 2025 15:12:30:  72000000 
+INFO  @ Mon, 27 Jan 2025 15:12:33:  73000000 
+INFO  @ Mon, 27 Jan 2025 15:12:36:  74000000 
+INFO  @ Mon, 27 Jan 2025 15:12:38:  75000000 
+INFO  @ Mon, 27 Jan 2025 15:12:41:  76000000 
+INFO  @ Mon, 27 Jan 2025 15:12:44:  77000000 
+INFO  @ Mon, 27 Jan 2025 15:12:47:  78000000 
+INFO  @ Mon, 27 Jan 2025 15:12:50:  79000000 
+INFO  @ Mon, 27 Jan 2025 15:12:53:  80000000 
+INFO  @ Mon, 27 Jan 2025 15:12:55:  81000000 
+INFO  @ Mon, 27 Jan 2025 15:12:58:  82000000 
+INFO  @ Mon, 27 Jan 2025 15:13:01:  83000000 
+INFO  @ Mon, 27 Jan 2025 15:13:04:  84000000 
+INFO  @ Mon, 27 Jan 2025 15:13:07:  85000000 
+INFO  @ Mon, 27 Jan 2025 15:13:09:  86000000 
+INFO  @ Mon, 27 Jan 2025 15:13:12:  87000000 
+INFO  @ Mon, 27 Jan 2025 15:13:15:  88000000 
+INFO  @ Mon, 27 Jan 2025 15:13:18:  89000000 
+INFO  @ Mon, 27 Jan 2025 15:13:21:  90000000 
+INFO  @ Mon, 27 Jan 2025 15:13:24:  91000000 
+INFO  @ Mon, 27 Jan 2025 15:13:26:  92000000 
+INFO  @ Mon, 27 Jan 2025 15:13:29:  93000000 
+INFO  @ Mon, 27 Jan 2025 15:13:32:  94000000 
+INFO  @ Mon, 27 Jan 2025 15:13:35:  95000000 
+INFO  @ Mon, 27 Jan 2025 15:13:38:  96000000 
+INFO  @ Mon, 27 Jan 2025 15:13:40:  97000000 
+INFO  @ Mon, 27 Jan 2025 15:13:43:  98000000 
+INFO  @ Mon, 27 Jan 2025 15:13:46:  99000000 
+INFO  @ Mon, 27 Jan 2025 15:13:49:  100000000 
+INFO  @ Mon, 27 Jan 2025 15:13:52:  101000000 
+INFO  @ Mon, 27 Jan 2025 15:13:54:  102000000 
+INFO  @ Mon, 27 Jan 2025 15:13:57:  103000000 
+INFO  @ Mon, 27 Jan 2025 15:14:00:  104000000 
+INFO  @ Mon, 27 Jan 2025 15:14:04:  105000000 
+INFO  @ Mon, 27 Jan 2025 15:14:07:  106000000 
+INFO  @ Mon, 27 Jan 2025 15:14:09:  107000000 
+INFO  @ Mon, 27 Jan 2025 15:14:12:  108000000 
+INFO  @ Mon, 27 Jan 2025 15:14:15:  109000000 
+INFO  @ Mon, 27 Jan 2025 15:14:18:  110000000 
+INFO  @ Mon, 27 Jan 2025 15:14:20:  111000000 
+INFO  @ Mon, 27 Jan 2025 15:14:23:  112000000 
+INFO  @ Mon, 27 Jan 2025 15:14:26:  113000000 
+INFO  @ Mon, 27 Jan 2025 15:14:29:  114000000 
+INFO  @ Mon, 27 Jan 2025 15:14:31:  115000000 
+INFO  @ Mon, 27 Jan 2025 15:14:34:  116000000 
+INFO  @ Mon, 27 Jan 2025 15:14:37:  117000000 
+INFO  @ Mon, 27 Jan 2025 15:14:40:  118000000 
+INFO  @ Mon, 27 Jan 2025 15:14:43:  119000000 
+INFO  @ Mon, 27 Jan 2025 15:14:45:  120000000 
+INFO  @ Mon, 27 Jan 2025 15:14:48:  121000000 
+INFO  @ Mon, 27 Jan 2025 15:14:52:  122000000 
+INFO  @ Mon, 27 Jan 2025 15:14:52: 122015207 reads have been read. 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #1 tag size is determined as 93 bps 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #1 tag size = 93.0 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #1  total tags in treatment: 122015207 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #1 finished! 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #2 Build Peak Model... 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #2 Skipped... 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #2 Use 150 as fragment length 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #2 Sequencing ends will be shifted towards 5' by 75 bp(s) 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #3 Call peaks... 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #3 Going to call summits inside each peak ... 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #3 Call peaks with given -log10pvalue cutoff: 2.00000 ... 
+INFO  @ Mon, 27 Jan 2025 15:14:53: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 27 Jan 2025 15:18:18: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 27 Jan 2025 15:21:24: #4 Write output xls file... /data/scratch/flanary/atac-seq/treated/Sen_241217/peaks/IMR5_peaks.xls 
+INFO  @ Mon, 27 Jan 2025 15:21:26: #4 Write peak in narrowPeak format file... /data/scratch/flanary/atac-seq/treated/Sen_241217/peaks/IMR5_peaks.narrowPeak 
+INFO  @ Mon, 27 Jan 2025 15:21:26: #4 Write summits bed file... /data/scratch/flanary/atac-seq/treated/Sen_241217/peaks/IMR5_summits.bed 
+INFO  @ Mon, 27 Jan 2025 15:21:27: Done! 
