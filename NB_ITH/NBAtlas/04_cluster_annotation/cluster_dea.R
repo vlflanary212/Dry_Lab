@@ -7,7 +7,6 @@ set.seed(42)
 
 # Load packages
 library(Seurat)
-library(MAST)
 library(presto)
 library(tidyverse)
 library(here)
@@ -28,7 +27,7 @@ seurat_obj <- readRDS(here(data_dir, "05_harmony_clust.rds"))
 seurat_obj <- JoinLayers(seurat_obj)
 
 # Set Ident to desired cluster size
-seurat_obj <- SetIdent(seurat_obj, value = "RNA_snn_res.0.4")
+seurat_obj <- SetIdent(seurat_obj, value = "RNA_snn_res.0.1")
 table(seurat_obj@active.ident)
 
 # Save current object
