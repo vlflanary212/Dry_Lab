@@ -19,7 +19,8 @@ fastqc_output=$wd/"fastqc_output"
 multiqc_output=$wd/"multiqc_output"
 
 ##### PACKAGES #####
-module load MultiQC/0.8
+module load Anaconda3
+conda activate atac-seq
 
 ##### COMMANDS #####
 multiqc -v $fastqc_output -o $multiqc_output

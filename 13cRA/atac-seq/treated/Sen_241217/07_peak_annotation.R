@@ -15,58 +15,28 @@ library(org.Hs.eg.db)
 library(here)
 library(ChrAccR)
 
-# Set working directory
-wd <- here("13cRA", "atac-seq", "untreated")
+# Set filepaths
+wd <- here("13cRA", "atac-seq", "treated", "Sen_241217")
+data_dir <- "/data/scratch/flanary/atac-seq/treated/Sen_241217"
 
 # Create a custom function for reading in narrow peaks as GRanges
-NarrowToGRanges <- function(data_dir, study, sample_name) {
-  peak_dir <- file.path(data_dir, study, "peaks")
+NarrowToGRanges <- function(data_dir, sample_name) {
+  peak_dir <- file.path(data_dir, "peaks")
   peak_file <- file.path(peak_dir, paste0(sample_name, "_peaks.narrowPeak"))
   narrow_granges <- readNarrowPeak(peak_file)
   mcols(narrow_granges) <- cbind(mcols(narrow_granges), DataFrame(sample = sample_name))
   return(narrow_granges)
 }
 
-data_dir <- "~/Library/CloudStorage/Box-Box/Data/atac-seq/untreated"
-
-# hNCC data from GSE108517
+# Internal data: 4 cell lines treated with 5 microM 13cRA for 24 hours
 ## Load the sample list
-hncc_samples <- readLines(here(wd, "GSE108517", "cell_lines.txt"))
+samples <- readLines(here(wd, "cell_lines.txt"))
 
 # Create GRanges object for this study
-hncc_peak_list <- NarrowToGRanges(data_dir, study = "GSE108517", sample_name = hncc_samples)
-names(hncc_peak_list) <- hncc_samples
-
-# Neuroblastoma data
-## Load sample list
-nb_samples <- readLines(here(wd, "GSE138293", "cell_lines.txt"))
-
-# Create GRanges object for this study
-nb_peak_list <- lapply(nb_samples, function(sample) {
-  NarrowToGRanges(data_dir, study = "GSE138293", sample_name = sample)
+peak_list <- lapply(samples, function(sample) {
+  NarrowToGRanges(data_dir, study = "Sen_241217", sample_name = sample)
 })
-names(nb_peak_list) <- nb_samples
-
-# Supplementary cell line ATAC-seq data generated internally
-## Load sample list
-sen_samples <- readLines(here(wd, "Sen_240503", "samples.txt"))
-
-## Peak calling failed for GIMEN - rm for now
-sen_samples <- setdiff(sen_samples, "GIMEN")
-
-# Create GRanges object for this study
-sen_peak_list <- lapply(sen_samples, function(sample) {
-  NarrowToGRanges(data_dir, study = "Sen_240503", sample_name = sample)
-})
-names(sen_peak_list) <- sen_samples
-
-# Merge peak lists
-peak_list <- c(sen_peak_list, nb_peak_list, hncc_peak_list)
-
-# Fix names for the peak list
-names <- setdiff(names(peak_list), "")
-names <- c(names, "hNCC")
-names(peak_list) <- names
+names(peak_list) <- samples
 
 # Append lists into a single GRanges object
 peaks <- peak_list |> GRangesList() |> unlist()
@@ -81,7 +51,7 @@ seqlevels(peaks_filt) <- intersect(seqlevels(peaks_filt), chromosomes)
 
 # Annotate peaks
 ## Load annotations
-txdb_file <- "~/Library/CloudStorage/Box-Box/Sen_Lab/Computational/Genome/hg38/gencode.v22.annotation.txdb"
+txdb_file <- "/data/project/sen-lab/genome/hg38/gencode.v22.annotation.txdb"
 txdb <- loadDb(txdb_file)
 
 ## Get genomic tiling
@@ -139,14 +109,34 @@ utr_5 <- peaks_anno[grep("5' UTR", peaks_anno$annotation), ] |>
 
 # Create the DsATAC object
 ## Create a vector for all bam files
-
+bam_dir <- file.path(data_dir, "final_bam")
+bam_files <- file.path(bam_dir, paste0(samples, "_final.bam"))
+  
 ## Generate a combined metadata dataframe
-metadata <- data.frame(
-  sample = names(peak_list)
-  age = ,
-  sex = ,
-  mycn_status = ,
-  phenotype = ,
-  bam_dir =
+sample_anno <- data.frame(
+  sample = c("IMR-5", "SHEP", "SK-N-AS", "SH-SY5Y"),
+  age_months = c("13", "48", "72", "48"),
+  sex = c("Male", "Female", "Female", "Female"),
+  mycn_status = c("Amplified", "Non-Amplified", "Non-Amplified", "Non-Amplified"),
+  phenotype = c("ADR", "MES", "MES", "ADR"),
+  bam_files = bam_files
 )
 
+## Create the DsATAC object
+dsa <- DsATAC.bam(sample_anno, "bam_files", "hg38", 
+                  regionSets = list(
+                    promoters = promoters,
+                    exons = exons,
+                    introns = introns,
+                    distal = introns,
+                    downstream = downstream,
+                    utr_3 = utr_3,
+                    utr_5 = utr_5
+                  ), 
+                  sampleIdCol = "sample", diskDump = FALSE)
+
+## Save the DsATAC object
+dest <- file.path(wd, "DsAtacDataset")
+saveDsAcc(dsa, dest)
+
+# End of script
