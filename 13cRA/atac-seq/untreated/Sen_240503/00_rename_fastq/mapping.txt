@@ -1,0 +1,8 @@
+GIMEN_S1_L001_R1_001.fastq.gz	GIMEN_R1.fastq.gz
+GIMEN_S1_L001_R2_001.fastq.gz	GIMEN_R2.fastq.gz
+SY5Y_S2_L001_R1_001.fastq.gz	SH-SY5Y_R1.fastq.gz
+SY5Y_S2_L001_R2_001.fastq.gz	SH-SY5Y_R2.fastq.gz
+SHEP_S3_L001_R1_001.fastq.gz	SHEP-1_R1.fastq.gz
+SHEP_S3_L001_R2_001.fastq.gz	SHEP-1_R2.fastq.gz
+IMR5_S4_L001_R1_001.fastq.gz	IMR-5_R1.fastq.gz
+IMR5_S4_L001_R2_001.fastq.gz	IMR-5_R2.fastq.gz
