@@ -34,7 +34,7 @@ samples <- readLines(here(wd, "cell_lines.txt"))
 
 # Create GRanges object for this study
 peak_list <- lapply(samples, function(sample) {
-  NarrowToGRanges(data_dir, study = "Sen_241217", sample_name = sample)
+  NarrowToGRanges(data_dir, sample_name = sample)
 })
 names(peak_list) <- samples
 
@@ -98,9 +98,6 @@ introns <- peaks_anno[grep("Intron", peaks_anno$annotation), ] |>
 distal <- peaks_anno[grep("Distal Intergenic", peaks_anno$annotation), ] |>
   makeGRangesFromDataFrame(keep.extra.columns = TRUE)
 
-downstream <- peaks_anno[grep("Downstream (<=300bp)", peaks_anno$annotation), ] |>
-  makeGRangesFromDataFrame(keep.extra.columns = TRUE)
-
 utr_3 <- peaks_anno[grep("3' UTR", peaks_anno$annotation), ] |>
   makeGRangesFromDataFrame(keep.extra.columns = TRUE)
 
@@ -128,8 +125,7 @@ dsa <- DsATAC.bam(sample_anno, "bam_files", "hg38",
                     promoters = promoters,
                     exons = exons,
                     introns = introns,
-                    distal = introns,
-                    downstream = downstream,
+                    distal = distal,
                     utr_3 = utr_3,
                     utr_5 = utr_5
                   ), 

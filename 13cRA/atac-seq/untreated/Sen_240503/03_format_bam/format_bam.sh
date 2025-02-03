@@ -19,7 +19,7 @@ module load SAMtools/1.9-foss-2018b
 
 ##### VARIABLES #####
 bam_dir="/data/scratch/flanary/atac-seq/untreated/Sen_240503/bam"
-sample_list="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/samples.txt"
+sample_list="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/cell_lines.txt"
 sample=$(sed -n "$SLURM_ARRAY_TASK_ID"p "$sample_list")
 
 ##### COMMANDS #####

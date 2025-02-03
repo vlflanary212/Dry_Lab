@@ -14,7 +14,7 @@
 #SBATCH --mail-type=ALL
 
 ##### VARIABLES #####
-wd="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc"
+wd="/home/flanary/Projects/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc"
 fastqc_output=$wd/"fastqc_output"
 multiqc_output=$wd/"multiqc_output"
 

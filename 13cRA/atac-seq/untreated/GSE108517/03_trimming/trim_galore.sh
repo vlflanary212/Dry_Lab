@@ -34,17 +34,8 @@ r2="$fastq_dir/${sample}_2.fastq"
 ##### COMMANDS #####
 echo "Processing sample: $sample"
 
-# Trim adapters and low quality reads (Phred score < 20 or length < 30 bp)
-trim_galore --paired --cores 8 --output_dir "$output_dir" \
---quality 20 --length 30 "$r1" "$r2"
-
-
-if [[ $? -eq 0 ]]; then
-  echo "Trimming completed successfully for sample: $sample"
-else
-  echo "Error during trimming for sample: $sample"
-  exit 1
-fi
+# Trim adapters
+trim_galore --paired --cores 8 --output_dir $output_dir $r1 $r2
 
 ##### END #####
 conda deactivate

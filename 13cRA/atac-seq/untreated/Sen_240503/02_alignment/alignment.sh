@@ -19,7 +19,7 @@ module load BWA/0.7.17-foss-2018b
 module load SAMtools/1.9-foss-2018b
 
 ##### ARRAY #####
-sample_list="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/samples.txt"
+sample_list="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/cell_lines.txt"
 sample=$(sed -n "$SLURM_ARRAY_TASK_ID"p "$sample_list")
 
 ##### VARIABLES #####
@@ -32,8 +32,8 @@ bam_dir=$file_dir/"bam"  #bam storage directory
 ref_genome="/data/project/sen-lab/genome/hg38/bwa/Homo_sapiens_assembly38.fasta"
 
 # fastq files (2/sample due to paired-end sequencing)
-fastq1="$fastq_dir/$sample"_1.fastq.gz
-fastq2="$fastq_dir/$sample"_2.fastq.gz
+fastq1="$fastq_dir/$sample"_R1.fastq.gz
+fastq2="$fastq_dir/$sample"_R2.fastq.gz
 
 ##### COMMANDS #####
 # map reads and make bam files

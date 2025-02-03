@@ -20,10 +20,10 @@ conda activate atac-seq
 
 ##### VARIABLES #####
 wd="/data/scratch/flanary/atac-seq/untreated/GSE138293"
-bam_dir=$wd/"bam"
+bam_dir=$wd/"final_bam"
 bigwig_dir=$wd/"bw"
 peak_dir=$wd/"peaks"
-samples="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/GSE138293/06_format_bam/cell_lines.txt"
+samples="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/GSE138293/cell_lines.txt"
 
 # Get sample name for this array task
 sample=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$samples")

@@ -19,7 +19,7 @@ module load SAMtools/1.9-foss-2018b
 
 ##### VARIABLES #####
 bam_dir="/data/scratch/flanary/atac-seq/untreated/GSE108517/bam"
-replicate_list="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/GSE108517/06_format_bam/sample_replicates.txt"
+replicate_list="/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/GSE108517/sample_replicates.txt"
 replicate=$(sed -n "$SLURM_ARRAY_TASK_ID"p "$replicate_list")
 
 ##### COMMANDS #####

@@ -1,0 +1,68 @@
+bamFilesList: ['/data/scratch/flanary/atac-seq/untreated/Sen_240503/final_bam/IMR-5_final.bam']
+binLength: 200
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 1
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 200
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+INFO  @ Sun, 02 Feb 2025 16:22:35: 
+# Command line: callpeak --treatment /data/scratch/flanary/atac-seq/untreated/Sen_240503/final_bam/IMR-5_final.bam --name IMR-5 --outdir /data/scratch/flanary/atac-seq/untreated/Sen_240503/peaks --gsize hs --nomodel --shift -75 --extsize 150 --keep-dup all --call-summits --pvalue 0.01
+# ARGUMENTS LIST:
+# name = IMR-5
+# format = AUTO
+# ChIP-seq file = ['/data/scratch/flanary/atac-seq/untreated/Sen_240503/final_bam/IMR-5_final.bam']
+# control file = None
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# pvalue cutoff = 1.00e-02
+# qvalue will not be calculated and reported as -1 in the final output.
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+# Searching for subpeak summits is on
+ 
+INFO  @ Sun, 02 Feb 2025 16:22:35: #1 read tag files... 
+INFO  @ Sun, 02 Feb 2025 16:22:35: #1 read treatment tags... 
+INFO  @ Sun, 02 Feb 2025 16:22:35: Detected format is: BAM 
+INFO  @ Sun, 02 Feb 2025 16:22:35: * Input file is gzipped. 
+INFO  @ Sun, 02 Feb 2025 16:22:37: 404030 reads have been read. 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #1 tag size is determined as 135 bps 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #1 tag size = 135.0 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #1  total tags in treatment: 404030 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #1 finished! 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #2 Build Peak Model... 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #2 Skipped... 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #2 Use 150 as fragment length 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #2 Sequencing ends will be shifted towards 5' by 75 bp(s) 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #3 Call peaks... 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #3 Going to call summits inside each peak ... 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #3 Call peaks with given -log10pvalue cutoff: 2.00000 ... 
+INFO  @ Sun, 02 Feb 2025 16:22:37: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sun, 02 Feb 2025 16:22:38: #3 Call peaks for each chromosome... 
+INFO  @ Sun, 02 Feb 2025 16:23:42: #4 Write output xls file... /data/scratch/flanary/atac-seq/untreated/Sen_240503/peaks/IMR-5_peaks.xls 
+INFO  @ Sun, 02 Feb 2025 16:23:43: #4 Write peak in narrowPeak format file... /data/scratch/flanary/atac-seq/untreated/Sen_240503/peaks/IMR-5_peaks.narrowPeak 
+INFO  @ Sun, 02 Feb 2025 16:23:43: #4 Write summits bed file... /data/scratch/flanary/atac-seq/untreated/Sen_240503/peaks/IMR-5_summits.bed 
+INFO  @ Sun, 02 Feb 2025 16:23:44: Done! 

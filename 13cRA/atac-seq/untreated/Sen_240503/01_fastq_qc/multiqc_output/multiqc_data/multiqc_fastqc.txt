@@ -1,9 +1,9 @@
 Sample	adapter_content	Sequences flagged as poor quality	sequence_duplication_levels	avg_sequence_length	Encoding	per_base_sequence_quality	sequence_length_distribution	Sequence length	File type	basic_statistics	per_sequence_gc_content	Total Sequences	per_base_n_content	per_base_sequence_content	overrepresented_sequences	%GC	total_deduplicated_percentage	Filename	per_tile_sequence_quality	per_sequence_quality_scores
-GIMEN_1	pass	0.0	pass	110.209301279	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	pass	1132941.0	pass	fail	warn	48.0	96.1558425044	GIMEN_1.fastq.gz	pass	pass
-GIMEN_2	pass	0.0	pass	110.209301279	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	pass	1132941.0	pass	fail	warn	48.0	96.1558425044	GIMEN_2.fastq.gz	pass	pass
-IMR5_1	pass	0.0	pass	112.168108856	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	fail	1224296.0	pass	fail	warn	35.0	73.2843386743	IMR5_1.fastq.gz	pass	pass
-IMR5_2	pass	0.0	pass	111.14079765	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	fail	1224296.0	pass	fail	warn	35.0	74.0915693927	IMR5_2.fastq.gz	pass	pass
-SHEP_1	pass	0.0	pass	110.577161893	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	pass	1184853.0	pass	fail	warn	44.0	92.7887872237	SHEP_1.fastq.gz	pass	pass
-SHEP_2	pass	0.0	pass	109.6949495	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	pass	1184853.0	pass	fail	warn	44.0	93.408069581	SHEP_2.fastq.gz	pass	pass
-SY5Y_1	pass	0.0	pass	103.969720419	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	warn	3442617.0	pass	fail	warn	39.0	75.3457219115	SY5Y_1.fastq.gz	pass	pass
-SY5Y_2	pass	0.0	pass	102.953690753	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	warn	3442617.0	pass	fail	warn	39.0	76.8945831671	SY5Y_2.fastq.gz	pass	pass
+GIMEN_R1	pass	0.0	pass	110.209301279	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	pass	1132941.0	pass	fail	warn	48.0	96.1558425044	GIMEN_R1.fastq.gz	pass	pass
+GIMEN_R2	pass	0.0	pass	110.209301279	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	pass	1132941.0	pass	fail	warn	48.0	96.1558425044	GIMEN_R2.fastq.gz	pass	pass
+IMR-5_R1	pass	0.0	pass	112.168108856	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	fail	1224296.0	pass	fail	warn	35.0	73.2843386743	IMR-5_R1.fastq.gz	pass	pass
+IMR-5_R2	pass	0.0	pass	111.14079765	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	fail	1224296.0	pass	fail	warn	35.0	74.0915693927	IMR-5_R2.fastq.gz	pass	pass
+SH-SY5Y_R1	pass	0.0	pass	103.969720419	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	warn	3442617.0	pass	fail	warn	39.0	75.3457219115	SH-SY5Y_R1.fastq.gz	pass	pass
+SH-SY5Y_R2	pass	0.0	pass	102.953690753	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	warn	3442617.0	pass	fail	warn	39.0	76.8945831671	SH-SY5Y_R2.fastq.gz	pass	pass
+SHEP-1_R1	pass	0.0	pass	110.577161893	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	pass	1184853.0	pass	fail	warn	44.0	92.7887872237	SHEP-1_R1.fastq.gz	pass	pass
+SHEP-1_R2	pass	0.0	pass	109.6949495	Sanger / Illumina 1.9	pass	warn	35-151	Conventional base calls	pass	pass	1184853.0	pass	fail	warn	44.0	93.408069581	SHEP-1_R2.fastq.gz	pass	pass

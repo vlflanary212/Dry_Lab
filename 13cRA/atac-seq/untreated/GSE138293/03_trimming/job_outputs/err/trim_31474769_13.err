@@ -1,0 +1,373 @@
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 5.0
+Could not detect version of Python used by Cutadapt from the first line of Cutadapt (but found this: >>>#!/bin/sh<<<)
+Letting the (modified) Cutadapt deal with the Python version instead
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 8 cores
+
+igzip detected. Using igzip for decompressing
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /scratch/flanary/atac-seq/untreated/GSE138293/trimmed_fastq/
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /data/scratch/flanary/atac-seq/untreated/GSE138293/fastq/SRR10215674_1.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	458385	CTGTCTCTTATA	1000000	45.84
+smallRNA	2	TGGAATTCTCGG	1000000	0.00
+Illumina	0	AGATCGGAAGAGC	1000000	0.00
+Using Nextera adapter for trimming (count: 458385). Second best hit was smallRNA (count: 2)
+
+Writing report to '/scratch/flanary/atac-seq/untreated/GSE138293/trimmed_fastq/SRR10215674_1.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /data/scratch/flanary/atac-seq/untreated/GSE138293/fastq/SRR10215674_1.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 5.0
+Python version: could not detect
+Number of cores used for trimming: 8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be fairly up-to-date (version 5.0). Setting -j 8
+Writing final adapter and quality trimmed output to SRR10215674_1_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /data/scratch/flanary/atac-seq/untreated/GSE138293/fastq/SRR10215674_1.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+70000000 sequences processed
+This is cutadapt 5.0 with Python 3.11.11
+Command line parameters: -j 8 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /data/scratch/flanary/atac-seq/untreated/GSE138293/fastq/SRR10215674_1.fastq
+Processing single-end reads on 8 cores ...
+
+=== Summary ===
+
+Total reads processed:              74,127,155
+Reads with adapters:                48,825,836 (65.9%)
+Reads written (passing filters):    74,127,155 (100.0%)
+
+Total basepairs processed: 7,412,715,500 bp
+Quality-trimmed:             208,024,860 bp (2.8%)
+Total written (filtered):  5,862,547,977 bp (79.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 48825836 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 14.7%
+  C: 38.1%
+  G: 24.1%
+  T: 23.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8318918	18531788.8	0	8318918
+2	2887237	4632947.2	0	2887237
+3	966601	1158236.8	0	966601
+4	470927	289559.2	0	470927
+5	363531	72389.8	0	363531
+6	376401	18097.4	0	376401
+7	360782	4524.4	0	360782
+8	400319	1131.1	0	400319
+9	408570	282.8	0	407027 1543
+10	377476	70.7	1	370273 7203
+11	435773	17.7	1	427547 8226
+12	444041	4.4	1	435621 8420
+13	437395	4.4	1	430381 7014
+14	442817	4.4	1	435745 7072
+15	473231	4.4	1	463623 9608
+16	533397	4.4	1	522130 11267
+17	589295	4.4	1	577226 12069
+18	573547	4.4	1	561462 12085
+19	708522	4.4	1	691824 16698
+20	709382	4.4	1	689172 20210
+21	808501	4.4	1	784530 23971
+22	511981	4.4	1	500714 11267
+23	499100	4.4	1	490347 8753
+24	487390	4.4	1	480463 6927
+25	500100	4.4	1	491380 8720
+26	553311	4.4	1	545183 8128
+27	588085	4.4	1	579536 8549
+28	620701	4.4	1	610943 9758
+29	759195	4.4	1	742209 16986
+30	573222	4.4	1	561214 12008
+31	484764	4.4	1	476989 7775
+32	489117	4.4	1	479696 9421
+33	530612	4.4	1	523098 7514
+34	619758	4.4	1	611312 8446
+35	662166	4.4	1	650896 11270
+36	643108	4.4	1	631212 11896
+37	720782	4.4	1	706253 14529
+38	857909	4.4	1	841512 16397
+39	848246	4.4	1	831704 16542
+40	868839	4.4	1	851829 17010
+41	1548265	4.4	1	1518568 29697
+42	357083	4.4	1	351566 5517
+43	462121	4.4	1	456119 6002
+44	525980	4.4	1	519297 6683
+45	573504	4.4	1	567049 6455
+46	659191	4.4	1	649610 9581
+47	806127	4.4	1	795948 10179
+48	923779	4.4	1	913788 9991
+49	809560	4.4	1	800560 9000
+50	686543	4.4	1	678213 8330
+51	627155	4.4	1	618700 8455
+52	563509	4.4	1	556778 6731
+53	646238	4.4	1	638276 7962
+54	808806	4.4	1	799510 9296
+55	691593	4.4	1	683939 7654
+56	557061	4.4	1	551063 5998
+57	583070	4.4	1	576642 6428
+58	786566	4.4	1	779048 7518
+59	771634	4.4	1	764041 7593
+60	616620	4.4	1	610002 6618
+61	466084	4.4	1	460762 5322
+62	304353	4.4	1	299779 4574
+63	298212	4.4	1	294447 3765
+64	270403	4.4	1	266896 3507
+65	186521	4.4	1	183900 2621
+66	88842	4.4	1	87461 1381
+67	44405	4.4	1	40795 3610
+68	30835	4.4	1	29656 1179
+69	31490	4.4	1	29725 1765
+70	33026	4.4	1	31878 1148
+71	36751	4.4	1	35705 1046
+72	34530	4.4	1	31474 3056
+73	20240	4.4	1	19200 1040
+74	26608	4.4	1	13327 13281
+75	4389	4.4	1	921 3468
+76	661	4.4	1	142 519
+77	3781	4.4	1	45 3736
+78	452	4.4	1	38 414
+79	3062	4.4	1	18 3044
+80	1199	4.4	1	11 1188
+81	447	4.4	1	17 430
+82	2828	4.4	1	16 2812
+83	428	4.4	1	17 411
+84	8673	4.4	1	20 8653
+85	856	4.4	1	39 817
+86	906	4.4	1	12 894
+87	3629	4.4	1	9 3620
+88	388	4.4	1	5 383
+89	508	4.4	1	6 502
+90	624	4.4	1	13 611
+91	608	4.4	1	13 595
+92	2726	4.4	1	13 2713
+93	492	4.4	1	7 485
+94	257	4.4	1	17 240
+95	166	4.4	1	15 151
+96	319	4.4	1	14 305
+97	3981	4.4	1	20 3961
+98	609	4.4	1	16 593
+99	1785	4.4	1	19 1766
+100	308	4.4	1	126 182
+
+RUN STATISTICS FOR INPUT FILE: /data/scratch/flanary/atac-seq/untreated/GSE138293/fastq/SRR10215674_1.fastq
+=============================================
+74127155 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/flanary/atac-seq/untreated/GSE138293/trimmed_fastq/SRR10215674_2.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /data/scratch/flanary/atac-seq/untreated/GSE138293/fastq/SRR10215674_2.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 5.0
+Python version: could not detect
+Number of cores used for trimming: 8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be fairly up-to-date (version 5.0). Setting -j -j 8
+Writing final adapter and quality trimmed output to SRR10215674_2_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /data/scratch/flanary/atac-seq/untreated/GSE138293/fastq/SRR10215674_2.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+70000000 sequences processed
+This is cutadapt 5.0 with Python 3.11.11
+Command line parameters: -j 8 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /data/scratch/flanary/atac-seq/untreated/GSE138293/fastq/SRR10215674_2.fastq
+Processing single-end reads on 8 cores ...
+
+=== Summary ===
+
+Total reads processed:              74,127,155
+Reads with adapters:                48,056,065 (64.8%)
+Reads written (passing filters):    74,127,155 (100.0%)
+
+Total basepairs processed: 7,412,715,500 bp
+Quality-trimmed:             703,112,789 bp (9.5%)
+Total written (filtered):  5,658,992,430 bp (76.3%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 48056065 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 15.3%
+  C: 36.5%
+  G: 24.2%
+  T: 24.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8074620	18531788.8	0	8074620
+2	2813945	4632947.2	0	2813945
+3	949216	1158236.8	0	949216
+4	467092	289559.2	0	467092
+5	363814	72389.8	0	363814
+6	377757	18097.4	0	377757
+7	361179	4524.4	0	361179
+8	399119	1131.1	0	399119
+9	403842	282.8	0	402367 1475
+10	373617	70.7	1	367535 6082
+11	422972	17.7	1	416308 6664
+12	411575	4.4	1	406306 5269
+13	423002	4.4	1	417521 5481
+14	446554	4.4	1	440379 6175
+15	475300	4.4	1	467856 7444
+16	543087	4.4	1	533499 9588
+17	585208	4.4	1	574995 10213
+18	592018	4.4	1	581582 10436
+19	760242	4.4	1	742989 17253
+20	676019	4.4	1	660786 15233
+21	735409	4.4	1	719101 16308
+22	1013879	4.4	1	985790 28089
+23	834620	4.4	1	817766 16854
+24	1563263	4.4	1	1531077 32186
+25	788983	4.4	1	774048 14935
+26	1176422	4.4	1	1158039 18383
+27	881958	4.4	1	869535 12423
+28	1652161	4.4	1	1630084 22077
+29	2389723	4.4	1	2363469 26254
+30	624172	4.4	1	614925 9247
+31	1065835	4.4	1	1054226 11609
+32	1728270	4.4	1	1709160 19110
+33	1440603	4.4	1	1424192 16411
+34	3926185	4.4	1	3891243 34942
+35	719795	4.4	1	710801 8994
+36	1509631	4.4	1	1493597 16034
+37	224977	4.4	1	220096 4881
+38	245034	4.4	1	242068 2966
+39	474560	4.4	1	469720 4840
+40	351352	4.4	1	347652 3700
+41	241393	4.4	1	238180 3213
+42	205355	4.4	1	202548 2807
+43	314887	4.4	1	311126 3761
+44	449427	4.4	1	443538 5889
+45	515599	4.4	1	510530 5069
+46	1205705	4.4	1	1194478 11227
+47	151270	4.4	1	148296 2974
+48	408395	4.4	1	403929 4466
+49	570405	4.4	1	565455 4950
+50	35256	4.4	1	33264 1992
+51	44916	4.4	1	42913 2003
+52	47548	4.4	1	46618 930
+53	54045	4.4	1	52905 1140
+54	146719	4.4	1	145053 1666
+55	120661	4.4	1	119060 1601
+56	7093	4.4	1	6073 1020
+57	6967	4.4	1	5622 1345
+58	17988	4.4	1	17144 844
+59	23408	4.4	1	22696 712
+60	29943	4.4	1	28793 1150
+61	29815	4.4	1	28886 929
+62	26465	4.4	1	25025 1440
+63	19039	4.4	1	18163 876
+64	18767	4.4	1	17853 914
+65	13186	4.4	1	12428 758
+66	8613	4.4	1	8073 540
+67	8815	4.4	1	6483 2332
+68	5954	4.4	1	5016 938
+69	6289	4.4	1	5121 1168
+70	4813	4.4	1	4143 670
+71	2736	4.4	1	2214 522
+72	2862	4.4	1	1142 1720
+73	1228	4.4	1	682 546
+74	8504	4.4	1	361 8143
+75	2530	4.4	1	25 2505
+76	509	4.4	1	5 504
+77	2628	4.4	1	7 2621
+78	485	4.4	1	5 480
+79	2426	4.4	1	2 2424
+80	911	4.4	1	3 908
+81	488	4.4	1	4 484
+82	2271	4.4	1	1 2270
+83	471	4.4	1	9 462
+84	6866	4.4	1	2 6864
+85	792	4.4	1	3 789
+86	902	4.4	1	4 898
+87	2751	4.4	1	1 2750
+88	352	4.4	1	7 345
+89	482	4.4	1	1 481
+90	559	4.4	1	5 554
+91	541	4.4	1	4 537
+92	2492	4.4	1	16 2476
+93	499	4.4	1	4 495
+94	344	4.4	1	5 339
+95	255	4.4	1	1 254
+96	458	4.4	1	2 456
+97	2981	4.4	1	7 2974
+98	520	4.4	1	3 517
+99	1298	4.4	1	2 1296
+100	178	4.4	1	20 158
+
+RUN STATISTICS FOR INPUT FILE: /data/scratch/flanary/atac-seq/untreated/GSE138293/fastq/SRR10215674_2.fastq
+=============================================
+74127155 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files SRR10215674_1_trimmed.fq and SRR10215674_2_trimmed.fq
+file_1: SRR10215674_1_trimmed.fq, file_2: SRR10215674_2_trimmed.fq
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: SRR10215674_1_trimmed.fq and SRR10215674_2_trimmed.fq <<<<<
+Writing validated paired-end Read 1 reads to SRR10215674_1_val_1.fq
+Writing validated paired-end Read 2 reads to SRR10215674_2_val_2.fq
+
+Total number of sequences analysed: 74127155
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 2019511 (2.72%)
+
+Deleting both intermediate output files SRR10215674_1_trimmed.fq and SRR10215674_2_trimmed.fq
+
+====================================================================================================
+

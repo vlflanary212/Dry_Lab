@@ -1,9 +1,9 @@
 Module	Section	Sample Name	Source
-FastQC	all_sections	IMR5_2	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/IMR5_2_fastqc.zip
-FastQC	all_sections	IMR5_1	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/IMR5_1_fastqc.zip
-FastQC	all_sections	GIMEN_2	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/GIMEN_2_fastqc.zip
-FastQC	all_sections	SHEP_1	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/SHEP_1_fastqc.zip
-FastQC	all_sections	GIMEN_1	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/GIMEN_1_fastqc.zip
-FastQC	all_sections	SY5Y_1	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/SY5Y_1_fastqc.zip
-FastQC	all_sections	SY5Y_2	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/SY5Y_2_fastqc.zip
-FastQC	all_sections	SHEP_2	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/SHEP_2_fastqc.zip
+FastQC	all_sections	SHEP-1_R2	/home/flanary/Projects/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/SHEP-1_R2_fastqc.zip
+FastQC	all_sections	IMR-5_R2	/home/flanary/Projects/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/IMR-5_R2_fastqc.zip
+FastQC	all_sections	IMR-5_R1	/home/flanary/Projects/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/IMR-5_R1_fastqc.zip
+FastQC	all_sections	SHEP-1_R1	/home/flanary/Projects/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/SHEP-1_R1_fastqc.zip
+FastQC	all_sections	SH-SY5Y_R1	/home/flanary/Projects/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/SH-SY5Y_R1_fastqc.zip
+FastQC	all_sections	GIMEN_R1	/home/flanary/Projects/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/GIMEN_R1_fastqc.zip
+FastQC	all_sections	GIMEN_R2	/home/flanary/Projects/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/GIMEN_R2_fastqc.zip
+FastQC	all_sections	SH-SY5Y_R2	/home/flanary/Projects/Dry_Lab/13cRA/atac-seq/untreated/Sen_240503/01_fastq_qc/fastqc_output/SH-SY5Y_R2_fastqc.zip
