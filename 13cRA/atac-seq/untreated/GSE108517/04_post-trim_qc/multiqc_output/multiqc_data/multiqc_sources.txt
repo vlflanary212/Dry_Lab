@@ -1,5 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	SRR6418909_1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/GSE108517/04_post-trim_qc/fastqc_output/SRR6418909_1_val_1_fastqc.zip
-FastQC	all_sections	SRR6418909_2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/GSE108517/04_post-trim_qc/fastqc_output/SRR6418909_2_val_2_fastqc.zip
-FastQC	all_sections	SRR6418910_2_val_2	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/GSE108517/04_post-trim_qc/fastqc_output/SRR6418910_2_val_2_fastqc.zip
-FastQC	all_sections	SRR6418910_1_val_1	/home/flanary/Dry_Lab/13cRA/atac-seq/untreated/GSE108517/04_post-trim_qc/fastqc_output/SRR6418910_1_val_1_fastqc.zip
